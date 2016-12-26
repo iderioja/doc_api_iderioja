@@ -1,0 +1,22 @@
+site_name: API js IDErioja
+pages:
+- Home: index.md
+- Configuración: configuracion.md
+- Opciones:
+    - capa_geojson: opciones/capa_geojson.md
+    - capa_kml: opciones/capa_kml.md
+    - cluster_markers: opciones/cluster_markers.md
+    - consulta: opciones/consulta.md
+    - escala: opciones/escala.md
+    - fondo_base: opciones/fondo_base.md
+    - init_lat,init_lng: opciones/init_lat-init_lng.md
+    - leyenda: opciones/leyenda.md
+    - localizacion: opciones/localizacion.md
+    - minimapa: opciones/minimapa.md
+    - selector_capas: opciones/selector_capas.md
+    - tag_mapa: opciones/tag_mapa.md
+    - zoom_inicial: opciones/zoom_inicial.md
+- Métodos: metodos/metodos.md
+- Licencia: licencia.md
+- About: about.md
+theme: yeti
