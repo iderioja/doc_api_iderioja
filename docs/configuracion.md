@@ -87,8 +87,22 @@ Opción | Tipo | Valor def. | Descripción
 ### Componentes
 </br>
 
-La API js IDErioja incorpora funcionalidades parametrizadas de las siguientes librerías y plugins de software abierto:
+La API js IDErioja incorpora funcionalidades de las siguientes librerías y plugins de software abierto:
 
- - [Leafletjs](http://leafletjs.com/): Librería JavaScript *open-source* para la visualización de mapas interactivos.
+ - [Leafletjs v 0.7.7](http://leafletjs.com/): Librería JavaScript *open-source* para la visualización de mapas interactivos.
  - [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster): Permite añadir a Leafletjs funcionalidades para el clustering dinámico de símbolos.
- - 
+ - [leaflet.TileLayer.WMTS](https://github.com/mylen/leaflet.TileLayer.WMTS): Incorpora la posibilidad de añadir capas a partir de servicios WMTS.
+ - [Leaflet.NonTiledLayer](https://github.com/ptv-logistics/Leaflet.NonTiledLayer): Soporta peticiones a servicios WMS no tileados.
+ - [leaflet-locatecontrol](https://github.com/domoritz/leaflet-locatecontrol): Añade controles para la geolocalización del dispositivo.
+ - [Leaflet.geojsonCSS](https://github.com/albburtsev/Leaflet.geojsonCSS): Permite aprovechar para la simbolización las posibilidades del formato [Geojson CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS).
+ - [leaflet-omnivore](https://github.com/mapbox/leaflet-omnivore): Soporte de formatos CSV, GPX, KML, WKT, TopoJSON y Encoded Polylines. Incluye [*corslite*](https://github.com/mapbox/corslite).
+ - [Leaflet.EasyButton](https://github.com/CliffCloud/Leaflet.EasyButton): Ofrece la posiblidad de añadir botones en Leaflet de una forma sencilla.
+ - [Leaflet-MiniMap](https://github.com/Norkart/Leaflet-MiniMap): Control que permite añadir en una esquina un minimapa con funciones *pan* y *zoom*.
+ - [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen): Plugin para mostrar la visualización a pantalla completa (HTML5).
+ - [leaflet-sidebar](https://github.com/Turbo87/leaflet-sidebar): Añade la posibilidad de configurar persianas laterales adaptativas (*responsives*).
+
+Otras librerías JavaScript:
+
+ - [pace](https://github.com/HubSpot/pace)
+ - [reqwest](https://github.com/ded/reqwest)
+ - [ondomready](https://github.com/tubalmartin/ondomready)
