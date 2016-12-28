@@ -72,7 +72,7 @@ El siguiente ejemplo inicializa el mapa con el fondo cartográfico de la Ortofot
 En este caso el valor de la variable `"fondo_base": "pnoa-ortofoto"` se podría sustituir por `"fondo_base": 101`
 
 </br>
-### Salida gráfica
+#### Salida gráfica
 </br>
 
 [Ejemplo de uso de la opción *fondo_base=pnoa-ortofoto*](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_fondo_base).

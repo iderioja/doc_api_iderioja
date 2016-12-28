@@ -51,7 +51,7 @@ Se presenta a continuación el código del fichero html para la representación 
 ```
 
 </br>
-### Salida gráfica
+#### Salida gráfica
 </br>
 
 [Resultado visual](https://iderioja.github.io/doc_api_iderioja/ejemplo_configuracion_api_iderioja).

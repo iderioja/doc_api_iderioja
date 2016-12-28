@@ -7,6 +7,8 @@ Está desarrollada sobre la librería de mapas interactivos [Leaflet](http://lea
 
 Aunque está diseñada originalmente para hacer uso de la geo-información contenida en la *Base de Datos Geográfica del Gobierno de La Rioja* (IDErioja), la API incorpora funciones que permiten la representación de información geográfica almacenada en otras ubicaciones y formatos.
 
+La prestación de este servicio se ofrece a título experimental, no suponiendo este por parte del Gobierno de La Rioja, la adquisición de ningún compromiso futuro, ni la asunción de responsabilidad jurídica alguna derivada del uso que se pudiera hacer del mismo.
+
 </br>
 ### Ejemplos
 </br>
