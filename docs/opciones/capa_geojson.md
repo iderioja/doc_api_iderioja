@@ -95,7 +95,7 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 #### Salida gráfica
 </br>
 
-En este caso la visualización de los polígonos de los [Departamentos de Francia](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson), se configura ajustando su color, grosor de línea y transparencia.
+En este caso la visualización de los polígonos de los Departamentos de Francia, se configura ajustando su color, grosor de línea y transparencia. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
 
 ![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_salida_grafica.jpg "Ejemplo opción capa_geojson")
 
@@ -103,7 +103,7 @@ En este caso la visualización de los polígonos de los [Departamentos de Franci
 ### Código de ejemplo 2
 </br>
 
-El siguiente ejemplo muestra la configuración para la representación de dos capas GeoJSON: [*Medios contra incendios forestales*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson) y [*Parque Natural Sierra de Cebollera (La Rioja)*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json).
+El siguiente ejemplo muestra la configuración para la representación de dos capas GeoJSON CSS: [*Medios contra incendios forestales*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson) y [*Parque Natural Sierra de Cebollera (La Rioja)*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json).
 
 ```html
 <html>
@@ -148,7 +148,7 @@ El siguiente ejemplo muestra la configuración para la representación de dos ca
 #### Salida gráfica
 </br>
 
-Por tratarse ambas capas de ficheros GeoJSON CSS, estas [se representan](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson_css) según la simbología que se encuentra definida en los propios ficheros de datos.
+Por tratarse ambas capas de ficheros GeoJSON CSS, estas se representan según la simbología que se encuentra definida en los propios ficheros de datos. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson_css)
 
 
 ![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_css_salida_grafica.jpg "Ejemplo opción capa_geojson")
