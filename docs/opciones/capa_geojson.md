@@ -7,11 +7,11 @@ Los datos geográficos deberán estar expresados en formato [GeoJSON](http://geo
 
 En esta opción es posible configurar la representación de los elementos geográficos mediante un conjunto de propiedades de estilo.
 
-Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS) definido por [OpenStreetMap](https://www.openstreetmap.org), para cada uno de sus elementos se utilizará por defecto la simbolización que venga definida en este. En el caso de que se especifiquen propiedades de estilo y/o icono, estas modificarán a las contenidas en el fichero GeoJSON CSS.
+Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS) definido por [OpenStreetMap](https://www.openstreetmap.org), se utilizará por defecto la simbolización que venga definida en el fichero de datos para cada uno de sus elementos. En el caso de que se especifiquen propiedades de *estilo* y/o *icono*, estas modificarán a las contenidas en el fichero GeoJSON CSS.
 
-</br>Nota:
+</br>Notas:
 
-(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa que según ha [anunciado](https://www.dropbox.com/es/help/16) esta compañía, a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
+(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
 
 </br>
 ###Propiedades
@@ -95,7 +95,7 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 #### Salida gráfica
 </br>
 
-En este caso la visualización de los polígonos de los Departamentos de Francia, se configura ajustando su color, grosor de línea y transparencia. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
+En este caso, la visualización de los polígonos de los Departamentos de Francia se configura ajustando su color, grosor de línea y transparencia. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
 
 ![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_salida_grafica.jpg "Ejemplo opción capa_geojson")
 
