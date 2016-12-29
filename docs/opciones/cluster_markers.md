@@ -47,9 +47,9 @@ Ejemplo de clustering visual aplicado al *Mapa de Estaciones de Medición de La 
 ```
 
 </br>
-### Salida gráfica
+####Salida gráfica
 </br>
 
-Utilización del clustering para la representación visual simplificada de conjuntos de elementos.
+Utilización del clustering para la representación visual simplificada de conjuntos de elementos. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_cluster_markers)
 
 ![Ejemplo opción cluster_markers](/img/opciones_cluster_markers_salida_grafica.jpg "Ejemplo opción cluster_markers")
