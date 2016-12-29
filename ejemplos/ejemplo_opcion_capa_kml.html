@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head lang="es">
+    <meta charset="UTF-8">
+    <title>Ejemplo de configuración capa_kml</title>
+    <style>
+      body, html{
+        height: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      #map{
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+  <script>
+    var iderioja_config = {
+      "capa_kml": [
+        {
+          "nombre": "Montañas del Mundo",
+          "url": "https://raw.githubusercontent.com/tucnak/marble/66cf19efddf791e9ee74e842369f2a2bd75526d7/data/placemarks/elevplacemarks.kml",
+          "icono":{
+            iconUrl:'http://svn.openstreetmap.org/applications/share/map-icons/2020iconset/2020_st_triangle_2.svg',
+            iconSize: [24, 24], // tamaño del icono
+            iconAnchor: [12, 24], // punto geográfico respecto al xy del icono
+            popupAnchor: [0, -24] // punto de anclaje de la burbuja de datos
+          }
+        },
+        {
+          "nombre": "Algerie_Telecom",
+          "url": "https://raw.githubusercontent.com/stevesong/afterfibre-kml/master/Algeria/Algerie_Telecom/Algerie_Telecom.kml",
+          "estilo": {
+            "color": "#ff0000",
+            "weight": 1,
+            "opacity": 1
+          }
+        }
+      ]
+    }
+  </script>
+  <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
+</html>
