@@ -6,7 +6,11 @@ El valor **`1`** activa la visualización del botón de leyenda. El valor **`0`*
 
 La pulsación del botón por parte del usuario, muestra u oculta la leyenda.
 
-Esta opción de momento solamente está operativa para las *consultas IDErioja*. No incorpora información proveniente de capas externas o locales, aunque estas últimas incluyan simbología.
+Una vez la leyenda está a la vista, el usuario puede mostrar/ocultar el conjunto de capas de los elementos geográficos.
+
+</br>Notas:
+
+(1) Esta opción de momento solamente está operativa para las *"consultas IDErioja"*. No incorpora información proveniente de capas externas o locales, aunque estas últimas incluyan simbología.
 
 </br>
 ###Código de ejemplo
