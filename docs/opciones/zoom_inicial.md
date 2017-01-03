@@ -15,9 +15,9 @@ En el nivel *0* el mapa mostrará todo el mundo, correspondiendo el nivel *19* a
 De forma orientativa se indica la resolución espacial en metros pixel *(1) para cada nivel de zoom (en el ecuador).
 
 Zoom|Teselas|Número de teselas|Tamaño de la tesela en m (256x256 px)|Resolución m/px
-:---:|---:|---:|---:
-0|1x1|1|40.075.016,69|
-1|2x2|4|20.037.508,34v
+:---:|---:|---:|---:|---:
+0|1x1|1|40.075.016,69|156.543,03
+1|2x2|4|20.037.508,34|78.271,52
 2|4x4|16|10.018.754,17|39.135,76
 3|8x8|64|5.009.377,09|19.567,88
 4|16x16|256|2.504.688,54|9.783,94
@@ -37,8 +37,7 @@ Zoom|Teselas|Número de teselas|Tamaño de la tesela en m (256x256 px)|Resoluci�
 18|262.144x262.144|68.719.476.736|152,87|0,5972
 19|524.288x524.288|274.877.906.944|76,44|0,2986
 
-
-Notas:
+</br>Notas:
 
 (1)  Es necesario tener en cuenta, que por tratarse de una proyección Spherical Mercator ([EPSG:3857](https://epsg.io/3857)), la resolución se irá modificando conforme la vista se aleje del ecuador, atendiendo la resolución de un pixel a la siguiente fórmula:
 
