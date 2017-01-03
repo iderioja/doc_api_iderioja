@@ -54,10 +54,10 @@ El ejemplo que se muestra configura el selector de capas con la opción "*minise
 
 Ejemplo de uso de la opción *selector_capas=1* (selector estándar Leaflet) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_1)
 
-![Ejemplo de uso de la opción selector_capas=1](/img/opciones_selector_capas_1.jpg "Ejemplo de uso de la opción selector_capas = 1")
+![Ejemplo de uso de la opción selector_capas=1](/img/opciones_selector_capas_salida_grafica_1.jpg "Ejemplo de uso de la opción selector_capas = 1")
 
 </br>
 
-Ejemplo de uso de la opción *selector_capas=2* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_2)
+Ejemplo de uso de la opción *selector_capas=2* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_2)
 
-![Ejemplo de uso de la opción selector_capas=2](/img/opciones_selector_capas_2.jpg "Ejemplo de uso de la opción selector_capas = 2")
+![Ejemplo de uso de la opción selector_capas=2](/img/opciones_selector_capas_salida_grafica_2.jpg "Ejemplo de uso de la opción selector_capas = 2")

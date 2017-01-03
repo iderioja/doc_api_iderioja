@@ -49,4 +49,4 @@ El siguiente ejemplo dirige la salida a un `<div>` denominado `"mi_mapa"`.
 
 Ejemplo de uso de la opción *tag_mapa=mi_mapa*.  [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_tag_mapa)
 
-![Ejemplo de uso de la opción tag_mapa](/img/opciones_tag_mapa.jpg "Ejemplo de uso de la opción tag_mapa")
+![Ejemplo de uso de la opción tag_mapa](/img/opciones_tag_mapa_salida_grafica.jpg "Ejemplo de uso de la opción tag_mapa")
