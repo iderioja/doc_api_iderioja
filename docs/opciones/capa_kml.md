@@ -21,7 +21,7 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 `url`| |texto|(nulo)|**(Obligatorio)** URL absoluta o relativa en la que se ubica el fichero GeoJSON.
 `estilo`| | | |Representación gráfica de polilíneas y polígonos
 ||`stroke`|booleano|'true'|Expresa si se quiere dibujar el trazado exterior (contorno) de un elemento gráfico.</br>Configurar como 'false' si se quiere prescindir de los bordes en la representación de polígonos o círculos.
-||`color`|texto|'#3388ff'|Color del trazo expresado en formato hexadecimal RGB #rrggbb.
+||`color`|texto|'#3388ff'|Color del trazo expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre ([lista de colores](https://www.w3.org/TR/SVG/types.html#ColorKeywords)).
 ||`weight`|entero|3|Anchura del trazo expresada en píxeles.
 ||`opacity`|número|1.0|Opacidad del trazo.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).
 ||`lineCap`|texto|'round'|Texto que define la forma que se utilizará para rematar el trazo.</br>Valores posibles: ['butt', 'round', 'square'](https://www.w3.org/TR/SVG/painting.html#StrokeLinecapProperty).
@@ -29,7 +29,7 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`dashArray`|texto|(nulo)|Cadena de texto que define el patrón de dibujo del trazo.</br>Se expresa mediante una lista de valores separada por comas o espacios en blanco, indicando estos la *longitud* o *porcentajes* de los trazados alternativos de líneas y huecos. Si se usa un *porcentaje*, este representa una distancia como un porcentaje con respecto a la ventana de visualización actual.</br>Los valores negativos son erróneos. Si la suma de los valores es cero, el trazo se renderizará como si se hubiera especificado el valor nulo.</br>Si se indica un número impar de valores, se repite la lista hasta alcanzar un número par de valores. Por ejemplo '1,3,2' es equivalente a '1,3,2,1,3,2'.
 ||`dashOffset`|texto|(nulo)|Texto que expresa la distancia en *longitud* o *porcentaje* entre el comienzo del trazo y la representación del trazado. Si se usa un *porcentaje*, este representa una distancia como un porcentaje con respecto a la ventana de visualización actual.
 ||`fill`|booleano|'true'|Esta variable define si se procede a colorear el interior de las formas gráficas.</br>El área a colorear es cualquier conjunto de áreas dentro del contorno de la forma, considerando el contorno como la línea perimetral de ancho cero.</br>Para determinar el interior del elemento se tendrán en cuenta todas las subformas conforme a las reglas establecidas en la variable *fillRule*.</br>El valor 'true' activa el coloreado de las formas gráficas, en tanto que el valor 'false' deshabilita su coloreado.
-||`fillColor`|texto|(*color*)|Color de relleno. El valor por defecto es el correspondiente al parámetro *color*.
+||`fillColor`|texto|(*color*)|Color de relleno expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre ([lista de colores](https://www.w3.org/TR/SVG/types.html#ColorKeywords)).</br>El valor por defecto es el correspondiente al parámetro *color*.
 ||`fillOpacity` |número|0.2|Opacidad del relleno.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).
 ||`fillRule`|texto|'evenodd'|Texto que define de qué manera se determina el interior de una forma gráfica.</br>Valores posibles: ['nonzero', 'evenodd'](https://www.w3.org/TR/SVG/painting.html#FillRuleProperty)
 `icono`| | | |Representación gráfica de marcas e iconos
