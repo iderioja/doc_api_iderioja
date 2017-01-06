@@ -1,15 +1,15 @@
-# capa_geojson
+#capa_gpx
 </br>
 
-La opción `capa_geojson` permite definir un *array* de archivos locales o de servidores externos que contienen las capas geográficas a visualizar.
+La opción `capa_gpx` permite  definir un *array* de archivos con la información geográfica a visualizar, expresados en formato *[GPX](http://www.topografix.com/gpx.asp)* (The GPS Exchange Format)
 
-Los datos geográficos deberán estar expresados en formato [GeoJSON](http://geojson.org/).
-
-Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS) definido por [OpenStreetMap](https://www.openstreetmap.org), se utilizará por defecto la simbolización que venga definida en el fichero de datos para cada uno de sus elementos. En el caso de que se especifiquen propiedades de *estilo* y/o *icono*, estas modificarán a las contenidas en el fichero GeoJSON CSS.
+El formato de intercambio GPX es un esquema XML ligero pensado para transferir datos GPS entre aplicaciones y servicios web en Internet. Se utiliza para describir *puntos* (waypoints), *recorridos* (tracks) y *rutas* (routes).
 
 </br>Notas:
 
-(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
+(1) Esta funcionalidad se apoya en los servicios que ofrece el plugin *[leaflet_omnivore](https://github.com/mapbox/leaflet-omnivore)* desarrollado por *[MapBox](https://www.mapbox.com/)*, para la librería JavaScript de mapas *[Leaflet](http://leafletjs.com/)*. Para ampliar la información sobre su funcionamiento y opciones se recomienda consultar la [documentación original](https://github.com/mapbox/leaflet-omnivore/blob/master/README.md).
+
+(2) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
 
 </br>
 ###Propiedades
@@ -46,17 +46,17 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
 
 </br>
-### Código de ejemplo 1
+###Código de ejemplo
 </br>
 
-El siguiente ejemplo muestra la configuración para una capa GeoJSON que contiene los datos geográficos de los [Departamentos de Francia](https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson), que se encuentra almacenada en un repositorio GitHub.
+El siguiente ejemplo muestra la configuración para la inclusión de dos ficheros geográficos kml:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head lang="es">
     <meta charset="UTF-8">
-    <title>Ejemplo de configuración capa_geojson</title>
+    <title>Ejemplo de configuración capa_gpx</title>
     <style>
       body, html{
         height: 100%;
@@ -75,13 +75,14 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
   </body>
   <script>
     var iderioja_config = {
-      "capa_geojson": [
-        {"nombre": "Departamentos de Francia",
-         "url": "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson",
-          "estilo": {
-            "color": "#ff0000",
-            "weight": 1,
-            "opacity": 0.3
+      "capa_gpx": [
+        {
+          "nombre": "Ruta GPS Achichuelo Nuevo",
+          "url": "https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/ruta_gps_achichuelo_nuevo.gpx",
+          "estilo":{
+            color:'#1f1b0e', // Color del trazo
+            weight: 3, // Anchura del trazo
+            dashArray: '1,5', // Patrón de dibujo del trazo
           }
         }
       ]
@@ -92,63 +93,9 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 ```
 
 </br>
-#### Salida gráfica
+####Salida gráfica
 </br>
 
-En este caso, la visualización de los polígonos de los [departamentos de Francia](https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson) se ha personalizado definiendo su color, grosor de línea y transparencia. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
+Representación del [fichero GPX](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/ruta_gps_achichuelo_nuevo.gpx) que describe el recorrido GPS denominado *Achichuelo Nuevo* en la Provincia de La Rioja (España), en la que se han configurado el color, la anchura y el patrón de la línea.  [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_gpx)
 
-![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_salida_grafica.jpg "Ejemplo opción capa_geojson")
-
-</br>
-### Código de ejemplo 2
-</br>
-
-El siguiente ejemplo muestra la configuración para la representación de dos capas GeoJSON CSS: [*Medios contra incendios forestales*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson) y [*Parque Natural Sierra de Cebollera (La Rioja)*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json).
-
-```html
-<html>
-  <head lang="es">
-    <meta charset="UTF-8">
-    <title>Ejemplo de configuración capa_geojson_css</title>
-    <style>
-      body, html{
-        height: 100%;
-        border: 0;
-        padding: 0;
-        margin: 0;
-      }
-      #map{
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-  </body>
-  <script>
-    var iderioja_config = {
-      "capa_geojson": [
-        {"nombre": "Medios contra incendios forestales",
-         "url": "https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson"
-         // GeoJSON CSS incluye simbología
-        },
-        {"nombre": "Parque Natural Sierra de Cebollera",
-         "url": "https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json"
-         // GeoJSON CSS incluye simbología
-        }
-      ]
-    }
-  </script>
-  <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
-</html>
-```
-
-</br>
-#### Salida gráfica
-</br>
-
-Por tratarse ambas capas de ficheros GeoJSON CSS, estas se representan según la simbología que se encuentra definida en los propios ficheros de datos. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson_css)
-
-
-![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_css_salida_grafica.jpg "Ejemplo opción capa_geojson")
+![Ejemplo opción capa_gpx](/img/opciones_capa_gpx_salida_grafica.jpg "Ejemplo opción capa_gpx")
