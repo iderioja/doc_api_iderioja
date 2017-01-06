@@ -49,7 +49,7 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ###Código de ejemplo
 </br>
 
-El siguiente ejemplo muestra la configuración para la inclusión de dos ficheros geográficos kml:
+El siguiente ejemplo muestra la configuración para la visualización de un fichero gpx que contiene el trazado de un recorrido (track) registrado con GPS:
 
 ```html
 <!DOCTYPE html>
@@ -96,6 +96,6 @@ El siguiente ejemplo muestra la configuración para la inclusión de dos fichero
 ####Salida gráfica
 </br>
 
-Representación del [fichero GPX](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/ruta_gps_achichuelo_nuevo.gpx) que describe el recorrido GPS denominado *Achichuelo Nuevo* en la Provincia de La Rioja (España), en la que se han configurado el color, la anchura y el patrón de la línea.  [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_gpx)
+Representación del [fichero GPX](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/ruta_gps_achichuelo_nuevo.gpx) que describe el recorrido (track) GPS denominado *Achichuelo Nuevo* en la Provincia de La Rioja (España), en la que se han configurado el color, el grosor y el patrón de la línea.  [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_gpx)
 
 ![Ejemplo opción capa_gpx](/img/opciones_capa_gpx_salida_grafica.jpg "Ejemplo opción capa_gpx")
