@@ -64,20 +64,22 @@ Se presenta a continuación el código del fichero html para la representación 
 
 Opción | Tipo | Valor def. | Descripción
 ------------ | ------------- | ------------ | ------------
-[capa_geojson](opciones/capa_geojson)| array | (no) | Define un array de archivos *GeoJSON* que contienen las capas geográficas a visualizar.
-[capa_kml](opciones/capa_kml)| array | (no) | Define un array de archivos *kml* que contienen las capas geográficas a visualizar.
-[cluster_markers](opciones/cluster_markers) | [0,1] | 0 | Simbolización agrupada y dinámica de elementos puntuales y símbolos
-[consulta](/opciones/consulta) | texto | (no) | Especifica la *consulta de IDErioja* que se quiere utilizar
-[escala](/opciones/escala) | [0,1] | 0 | Muestra una barra con la *escala gráfica* del mapa
-[fondo_base](/opciones/fondo_base) | texto | "iderioja-base" | Especifica el *fondo cartográfico* o mapa base que se utilizará en el mapa
-[init_lat](/opciones/init_lat-init_lng) | coordenada | 40.4169473 | Define la *latitud* del centrado inicial del mapa en coordenadas geográficas
-[init_lng](/opciones/init_lat-init_lng) | coordenada | -3.7035285 | Define la *longitud* del centrado inicial del mapa en coordenadas geográficas
-[leyenda](/opciones/leyenda) | [0,1] | 0 | Muestra un *botón leyenda* de las capas utilizadas en una *consulta* IDErioja
-[localizacion](opciones/localizacion) | [0,1] | 0 | Ofrece un botón que muestra la localización geográfica del dispositivo
-[minimapa](opciones/minimapa) | [0,1] | 0 | Muestra un *mapa guía* en la parte inferior derecha del mapa principal
-[selector_capas](/opciones/selector_capas) | [0,1,2] | 0 | Configura la oferta y apariencia del *selector de capas*
-[tag_mapa](/opciones/consulta) | div | "map" | Establece el nombre del <*div*> en el que incrustará el mapa
-[zoom_inicial](/opciones/zoom_inicial) | [0-19] | 10 | Establece el nivel de *zoom* inicial con el que se representará el mapa
+[capa_geojson](opciones/capa_geojson)|array|(no)|Array de archivos *GeoJSON* con capas geográficas a visualizar.
+[capa_gpx](opciones/capa_gpx)|array|(no)|Array de archivos *GPX* (GPS) con puntos, recorridos y rutas a visualizar.
+[capa_kml](opciones/capa_kml)|array|(no)|Array de archivos *KML* con capas geográficas a visualizar.
+[cluster_markers](opciones/cluster_markers)|[0,1]|0|Simbolización agrupada y dinámica de elementos puntuales y símbolos
+[consulta](/opciones/consulta)|texto|(no)|Especifica la *consulta de IDErioja* que se quiere utilizar
+[escala](/opciones/escala)|[0,1]|0|Muestra una barra con la *escala gráfica* del mapa
+[fondo_base](/opciones/fondo_base)|texto|"iderioja-base"|Especifica el *fondo cartográfico* o mapa base que se utilizará en el visor
+[ids](/opciones/ids)|array|(no)|Elementos a representar entre los incluidos en una consulta IDErioja
+[init_lat](/opciones/init_lat-init_lng)|coordenada|40.4169473|*Latitud* del centrado inicial del mapa en coordenadas geográficas
+[init_lng](/opciones/init_lat-init_lng)|coordenada|-3.7035285|*Longitud* del centrado inicial del mapa en coordenadas geográficas
+[leyenda](/opciones/leyenda)|[0,1]|0|Muestra un *botón leyenda* de las capas utilizadas en una *consulta* IDErioja
+[localizacion](opciones/localizacion)|[0,1]|0|Ofrece un botón que muestra la localización geográfica del dispositivo
+[minimapa](opciones/minimapa)|[0,1]|0|Muestra un *mapa guía* en la parte inferior derecha del mapa principal
+[selector_capas](/opciones/selector_capas)|[0,1,2]|0|Configura la oferta y apariencia del *selector de capas*
+[tag_mapa](/opciones/consulta)|div|"map"|Establece el nombre del <*div*> en el que incrustará el mapa
+[zoom_inicial](/opciones/zoom_inicial)|[0-19]|10|Nivel de *zoom* inicial con el que se representará el mapa
 
 </br>
 ### Métodos

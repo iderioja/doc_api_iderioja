@@ -10,7 +10,9 @@ Una vez la leyenda está a la vista, el usuario puede mostrar/ocultar el conjunt
 
 </br>Notas:
 
-(1) Esta opción de momento solamente está operativa para las *"consultas IDErioja"*. No incorpora información proveniente de capas externas o locales, aunque estas últimas incluyan simbología.
+(1) Función de uso exclusivo en el ámbito de consulta IDErioja. No incorpora información proveniente de capas externas o locales, aunque estas últimas incluyan simbología.
+
+(2) Esta opción debe ir precedida siempre por la opción `consulta`.
 
 </br>
 ###Código de ejemplo

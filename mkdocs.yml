@@ -4,11 +4,13 @@ pages:
 - Configuración: configuracion.md
 - Opciones:
     - capa_geojson: opciones/capa_geojson.md
+    - capa_gpx: opciones/capa_gpx.md
     - capa_kml: opciones/capa_kml.md
     - cluster_markers: opciones/cluster_markers.md
     - consulta: opciones/consulta.md
     - escala: opciones/escala.md
     - fondo_base: opciones/fondo_base.md
+    - ids: opciones/ids.md
     - init_lat,init_lng: opciones/init_lat-init_lng.md
     - leyenda: opciones/leyenda.md
     - localizacion: opciones/localizacion.md

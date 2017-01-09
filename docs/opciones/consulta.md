@@ -11,6 +11,10 @@ En el apartado web *"[Mapas temáticos interactivos](https://www.iderioja.larioj
 
 La información asociada a la consulta, incluye la capa o conjunto de capas geográficas que se desean visualizar en el mapa, su simbología y los atributos asociados de cada una de ellas, así como el orden de las mismas.
 
+</br>Notas:
+
+(1) Función de uso exclusivo en el ámbito de consulta IDErioja.
+
 </br>
 ###Código de ejemplo
 </br>
