@@ -9,6 +9,7 @@ pages:
     - cluster_markers: opciones/cluster_markers.md
     - consulta: opciones/consulta.md
     - escala: opciones/escala.md
+    - estilo_hover: opciones/estilo_hover.md
     - fondo_base: opciones/fondo_base.md
     - ids: opciones/ids.md
     - init_lat,init_lng: opciones/init_lat-init_lng.md

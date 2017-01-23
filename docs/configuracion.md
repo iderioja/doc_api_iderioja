@@ -70,6 +70,7 @@ Opción | Tipo | Valor def. | Descripción
 [cluster_markers](opciones/cluster_markers)|[0,1]|0|Simbolización agrupada y dinámica de elementos puntuales y símbolos
 [consulta](/opciones/consulta)|texto|(no)|Especifica la *consulta de IDErioja* que se quiere utilizar
 [escala](/opciones/escala)|[0,1]|0|Muestra una barra con la *escala gráfica* del mapa
+[estilo_hover](/opciones/estilo_hover)|parámetros| |Define la simbolización que se emplea para resaltar un elemento
 [fondo_base](/opciones/fondo_base)|texto|"iderioja-base"|Especifica el *fondo cartográfico* o mapa base que se utilizará en el visor
 [ids](/opciones/ids)|array|(no)|Elementos a representar entre los incluidos en una consulta IDErioja
 [init_lat](/opciones/init_lat-init_lng)|coordenada|40.4169473|*Latitud* del centrado inicial del mapa en coordenadas geográficas
