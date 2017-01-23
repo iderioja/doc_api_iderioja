@@ -1,11 +1,11 @@
 # estilo_hover
 </br>
 
-Se denomina *hover* (en inglés 'planear') a la función que permite resaltar un elemento geográfico cuando cuando pasa el puntero sobre él.
+Se denomina *hover* (en inglés 'planear') a la función que permite resaltar un elemento geográfico cuando pasa el puntero sobre él.
 
 La opción `estilo_hover` permite definir los parámetros de simbolización necesarios para realzar la visualización del elemento.
 
-La opción se define una sola vez, aplicándose a todas las capas geográficas del mapa.
+Se define solamente una sola vez, aplicándose a todas las capas geográficas del mapa.
 
 </br>Notas:
 
