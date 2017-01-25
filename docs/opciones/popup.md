@@ -60,7 +60,7 @@ El siguiente ejemplo muestra la configuración de la función *popup* actuando s
 #### Salida gráfica
 </br>
 
-En este ejemplo, la función *popup* presenta en una cortina lateral los atributos del elemento selecionado.
+En este ejemplo, la función *popup* presenta los atributos del elemento selecionado en una cortina lateral.
 
 En él se ha utilizado un fichero GeoJSON disponible en GitHub que contiene información de [pastelerías](https://raw.githubusercontent.com/lyzidiamond/learn-geojson/master/geojson/cupcakes.geojson), sobre el fondo cartográfico *[light_all](https://carto.com/location-data-services/basemaps/)* ofrecido por la compañía *Carto*. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_popup)
 
