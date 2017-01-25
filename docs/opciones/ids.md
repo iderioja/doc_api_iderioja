@@ -58,6 +58,6 @@ El siguiente ejemplo se representan dos elementos, con los identificadores: *153
 ####Salida gráfica
 </br>
 
-Visualización de dos elementos incluidos en el mapa de los terrenos acotados de setas de La Rioja. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_ids)
+Visualización de dos elementos incluidos en el mapa de los terrenos acotados de setas de La Rioja. [(visualizarejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_ids)
 
 ![Dos elementos de los acotados de setas de La Rioja](/img/opciones_ids_salida_grafica.jpg "Dos elementos de los acotados de setas de La Rioja")

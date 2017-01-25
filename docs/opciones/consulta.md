@@ -57,6 +57,6 @@ El siguiente ejemplo utiliza la consulta de IDErioja: "*796249706e544633612b4776
 ####Salida gráfica
 </br>
 
-Mapa de los terrenos acotados de setas de La Rioja que se corresponde con la consulta 796249706e544633612b4776356352455470737a45413d3d. [(visualizar)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_consulta)
+Mapa de los terrenos acotados de setas de La Rioja que se corresponde con la consulta 796249706e544633612b4776356352455470737a45413d3d. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_consulta)
 
 ![Terrenos acotados de setas de La Rioja](/img/opciones_consulta_salida_grafica.jpg "Terrenos acotados de setas de La Rioja")

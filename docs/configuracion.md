@@ -23,7 +23,7 @@ Se presenta a continuación el código del fichero html para la representación 
 <html>
   <head lang="es">
     <meta charset="UTF-8">
-    <title>Ejemplo de configuración API IDErioja</title>
+    <title>Ejemplo de configuración popup</title>
     <style>
       body, html{
         height: 100%;
@@ -42,8 +42,13 @@ Se presenta a continuación el código del fichero html para la representación 
   </body>
   <script>
     var iderioja_config = {
-      "consulta": "4d4b792f6469754163366644435862454d7a314e47773d3d"
-      // Estaciones de medición
+      "fondo_base": 800,
+      "capa_geojson": [
+        {"nombre": "CupCakes",
+          "url": "https://raw.githubusercontent.com/lyzidiamond/learn-geojson/master/geojson/cupcakes.geojson", // CupCakes
+        }
+      ],
+	  "popup": 2
     }
   </script>
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
@@ -78,6 +83,7 @@ Opción | Tipo | Valor def. | Descripción
 [leyenda](/opciones/leyenda)|[0,1]|0|Muestra un *botón leyenda* de las capas utilizadas en una *consulta* IDErioja
 [localizacion](opciones/localizacion)|[0,1]|0|Ofrece un botón que muestra la localización geográfica del dispositivo
 [minimapa](opciones/minimapa)|[0,1]|0|Muestra un *mapa guía* en la parte inferior derecha del mapa principal
+[popup](opciones/popup)|[0,1,2]|1|Define cómo se visualizan los atributos de un elemento seleccionado
 [selector_capas](/opciones/selector_capas)|[0,1,2]|0|Configura la oferta y apariencia del *selector de capas*
 [tag_mapa](/opciones/consulta)|div|"map"|Establece el nombre del <*div*> en el que incrustará el mapa
 [zoom_inicial](/opciones/zoom_inicial)|[0-19]|10|Nivel de *zoom* inicial con el que se representará el mapa

@@ -75,6 +75,5 @@ En este caso el valor de la variable `"fondo_base": "pnoa-ortofoto"` se podría 
 #### Salida gráfica
 </br>
 
-[Ejemplo de uso de la opción *fondo_base=pnoa-ortofoto*](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_fondo_base).
-
+Ejemplo de uso de la opción *fondo_base=pnoa-ortofoto*. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_fondo_base)
 ![Ejemplo de uso de la opción fondo_base](/img/opciones_fondo_base_salida_grafica.jpg "Ejemplo de uso de la opción fondo_base")
