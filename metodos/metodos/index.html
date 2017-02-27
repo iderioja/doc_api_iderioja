@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Métodos - API js IDErioja</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">API js IDErioja</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../configuracion/">Configuración</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opciones <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../opciones/capa_geojson/">capa_geojson</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/capa_gpx/">capa_gpx</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/capa_kml/">capa_kml</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/cluster_markers/">cluster_markers</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/consulta/">consulta</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/escala/">escala</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/estilo_hover/">estilo_hover</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/fondo_base/">fondo_base</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/ids/">ids</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/init_lat-init_lng/">init_lat,init_lng</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/leyenda/">leyenda</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/localizacion/">localizacion</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/minimapa/">minimapa</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/popup/">popup</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/selector_capas/">selector_capas</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/tag_mapa/">tag_mapa</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../opciones/zoom_inicial/">zoom_inicial</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="active">
+                    <a href="./">Métodos</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../licencia/">Licencia</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../about/">About</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../../opciones/zoom_inicial/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../licencia/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#metodos">Métodos</a></li>
+        
+            <li><a href="#crea_boton">crea_boton</a></li>
+        
+            <li><a href="#captura_zoom">captura_zoom</a></li>
+        
+            <li><a href="#ir_a_coordenada">ir_a_coordenada</a></li>
+        
+            <li><a href="#ir_a_elemento">ir_a_elemento</a></li>
+        
+            <li><a href="#ir_a_todo">ir_a_todo</a></li>
+        
+            <li><a href="#zoom_mas">zoom_mas</a></li>
+        
+            <li><a href="#zoom_menos">zoom_menos</a></li>
+        
+            <li><a href="#carga_fondo">carga_fondo</a></li>
+        
+            <li><a href="#carga_fondo_wmts">carga_fondo_wmts</a></li>
+        
+            <li><a href="#carga_capa_notiled_wms">carga_capa_notiled_wms</a></li>
+        
+            <li><a href="#carga_capa_geojson">carga_capa_geojson</a></li>
+        
+            <li><a href="#carga_capa_kml">carga_capa_kml</a></li>
+        
+            <li><a href="#carga_capa_gpx">carga_capa_gpx</a></li>
+        
+            <li><a href="#eliminacapasmapa">eliminaCapasMapa</a></li>
+        
+            <li><a href="#eliminacapasbasemapa">eliminaCapasBaseMapa</a></li>
+        
+            <li><a href="#setfiltroprop">setFiltroProp</a></li>
+        
+            <li><a href="#unsetfiltroprop">unsetFiltroProp</a></li>
+        
+            <li><a href="#setfiltroids">setFiltroIDS</a></li>
+        
+            <li><a href="#unsetfiltroids">unsetFiltroIDs</a></li>
+        
+            <li><a href="#setfiltrobd">setFiltroBD</a></li>
+        
+            <li><a href="#unsetfiltrobd">unsetFiltroBD</a></li>
+        
+            <li><a href="#abremodal">abreModal</a></li>
+        
+            <li><a href="#ejemplo">Ejemplo</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="metodos">Métodos</h1>
+<p></br></p>
+<p>La llamada a los <em>métodos</em> o <em>funciones</em> se debe realizar después de que el mapa esté cargado en el DOM, por lo que se utilizará la función <em>"iderioja_ready"</em> o funciones similares de jQuery (DOMReady).</p>
+<p>También pueden ser invocadas desde un evento <em>'click'</em> de un botón.</p>
+<p></br></p>
+<h3 id="crea_boton">crea_boton</h3>
+<p></br>
+<code>crea_boton (&lt;contenido&gt;, &lt;función&gt;, &lt;parámetros&gt;)</code></p>
+<p></br>Añade un botón dentro del mapa que al pulsarlo ejecuta la función que se le pasa como parámetro.</p>
+<p>Tiene 3 parámetros:</p>
+<ul>
+<li>Contenido del botón (string):<ul>
+<li>Código HTML</li>
+<li>Icono de <em>FontAwesome</em></li>
+</ul>
+</li>
+<li>Función Javascript (string)</li>
+<li>Parámetros de la funcion (array)</li>
+</ul>
+<pre><code>iderioja_ready(function () {
+  mapa_iderioja.crea_boton('&lt;span id=&quot;nivel_zoom&quot;&gt;&lt;/span&gt;', &quot;alert&quot;, [&quot;hola!!!&quot;]);
+});
+</code></pre>
+
+<p></br></p>
+<h3 id="captura_zoom">captura_zoom</h3>
+<p></br></p>
+<p><code>captura_zoom (&lt;id del DOM&gt;)</code></p>
+<p></br>Inserta el valor del zoom actual en el ID del elemento de DOM que se indique.</p>
+<pre><code>iderioja_ready(function () {
+  mapa_iderioja.captura_zoom(&quot;nivel_zoom&quot;);
+});
+</code></pre>
+
+<p></br></p>
+<h3 id="ir_a_coordenada">ir_a_coordenada</h3>
+<p></br></p>
+<p><code>ir_a_coordenada (&lt;lon&gt;, &lt;lat&gt;, &lt;zoom&gt;)</code></p>
+<p></br>Sitúa el mapa en la coordenada y el nivel de zoom especificados.</p>
+<p></br></p>
+<h3 id="ir_a_elemento">ir_a_elemento</h3>
+<p></br></p>
+<p><code>ir_a_elemento (&lt;id del elemento&gt;, &lt;zoom&gt;)</code></p>
+<p></br>Sitúa el mapa en el ID del elemento indicado con el nivel de zoom seleccionado.</p>
+<p>Se abren las propiedades del elemento.</p>
+<p></br></p>
+<h3 id="ir_a_todo">ir_a_todo</h3>
+<p></br></p>
+<p><code>ir_a_todo ()</code></p>
+<p></br>Centra el mapa para que todos los elementos aparezcan, ajustando también el nivel de zoom.</p>
+<p></br></p>
+<h3 id="zoom_mas">zoom_mas</h3>
+<p></br></p>
+<p><code>zoom_mas()</code></p>
+<p></br>Acerca el mapa.</p>
+<p></br></p>
+<h3 id="zoom_menos">zoom_menos</h3>
+<p></br></p>
+<p><code>zoom_menos()</code></p>
+<p></br>Aleja el mapa.</p>
+<p></br></p>
+<h3 id="carga_fondo">carga_fondo</h3>
+<p></br></p>
+<p><code>carga_fondo</code></p>
+<p></br>Carga un fondo en formato tile server.</p>
+<pre><code>mapa_iderioja.carga_fondo(
+  'MapQuest',
+  'http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',
+  {maxZoom: 19,
+   subdomains: '1234',
+   tms: false,
+   attribution: 'Map data © &lt;a href=&quot;http://www.mapquest.com&quot;&gt;MapQuest&lt;/a&gt;'
+  }
+);
+</code></pre>
+
+<p></br></p>
+<h3 id="carga_fondo_wmts">carga_fondo_wmts</h3>
+<p></br></p>
+<p><code>carga_fondo_wmts</code></p>
+<p></br>Carga un fondo en formato WMTS.</p>
+<p></br></p>
+<h3 id="carga_capa_notiled_wms">carga_capa_notiled_wms</h3>
+<p></br></p>
+<p><code>carga_capa_notiled_wms</code></p>
+<p></br>Carga una capa WMTS sin tilear.</p>
+<pre><code>mapa_iderioja.carga_capa_notiled_wms(
+  'D.G. Catastro',
+  'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx',
+  {minZoom: 0,
+   maxZoom: 19,
+   opacity: 1.0,
+   layers: 'Catastro',
+   styles: 'default',
+   version: '1.1.1.',
+   format: 'image/png',
+   transparente: true,
+   attribution: 'Dirección General del Catastro'
+  },
+  false
+);
+</code></pre>
+
+<p></br></p>
+<h3 id="carga_capa_geojson">carga_capa_geojson</h3>
+<p></br></p>
+<p><code>carga_capa_geojson</code></p>
+<p></br>Carga una capa en formato GeoJSON.</p>
+<pre><code>mapa_iderioja.carga_capa_geojson(
+  'Departamentos de Francia',
+  'https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson'
+);
+</code></pre>
+
+<p></br></p>
+<h3 id="carga_capa_kml">carga_capa_kml</h3>
+<p></br></p>
+<p><code>carga_capa_kml</code></p>
+<p></br>Carga una capa en formato KML.</p>
+<pre><code>mapa_iderioja.carga_capa_kml(
+  'Trip to Spain and Morocco',
+  'https://raw.githubusercontent.com/CafeGIS/gvSIG2_0/81376f304645d040ee34e98d57b4f745e0293d05/libGPE-KML/testdata/SpainMorocco.kml'
+);
+</code></pre>
+
+<p></br></p>
+<h3 id="carga_capa_gpx">carga_capa_gpx</h3>
+<p></br></p>
+<p><code>carga_capa_gpx</code></p>
+<p></br>Carga una capa en formato GPX.</p>
+<pre><code>mapa_iderioja.carga_capa_kml(
+  'Punto GPS',
+  'https://raw.githubusercontent.com/doronkatz/GFXLocations/78c430a92124bd9b52f4fc5a60f0185849aea1fd/darwin.gpx',
+  null,
+  {iconUrl: 'http://www.thenationalgroup.net/App_Themes/ELPISCMS/images/map-marker_icon.png',
+   iconSize: [24, 24], // tamaño del icono
+   iconAnchor: [12, 24], // punto geográfico respecto al xy del icono
+   popupAnchor: [0, -24] // punto de anclaje de la burbuja de datos
+  }
+);
+</code></pre>
+
+<p></br></p>
+<h3 id="eliminacapasmapa">eliminaCapasMapa</h3>
+<p></br></p>
+<p><code>eliminaCapasMapa</code></p>
+<p></br>Suprime todas las capas del mapa.</p>
+<p></br></p>
+<h3 id="eliminacapasbasemapa">eliminaCapasBaseMapa</h3>
+<p></br></p>
+<p><code>eliminaCapasBaseMapa</code></p>
+<p></br>Suprime las capas del tipo <em>BaseLayer</em>.</p>
+<p></br></p>
+<h3 id="setfiltroprop">setFiltroProp</h3>
+<p></br></p>
+<pre><code>setFiltroProp({
+  &quot;&lt;atributo&gt;&quot;: &quot;&lt;valor&gt;&quot;,
+  &quot;&lt;atributo&gt;&quot;: &quot;&lt;valor&gt;&quot;
+})
+</code></pre>
+
+<p></br>Muestra en el mapa solamente los elementos que coincidan con el valor del atributo seleccionado.</p>
+<p>Los datos tienen que existir en el GeoJSON cargado en el mapa.</p>
+<p></br></p>
+<h3 id="unsetfiltroprop">unsetFiltroProp</h3>
+<p></br></p>
+<p><code>unsetFiltroProp()</code></p>
+<p></br>Elimina los filtros creados con <code>setfiltroProp</code>.</p>
+<p></br></p>
+<h3 id="setfiltroids">setFiltroIDS</h3>
+<p></br></p>
+<p><code>setFiltroIDS([&lt;id1&gt;,&lt;id2&gt;,&lt;id3&gt;,...])</code></p>
+<p></br>Muestra en el mapa solamente los elementos que coincidan con los identificadores (IDs) seleccionados.</p>
+<p>Los datos tienen que existir en el GeoJSON cargado en el mapa.</p>
+<p></br></p>
+<h3 id="unsetfiltroids">unsetFiltroIDs</h3>
+<p></br></p>
+<p><code>unsetFiltroIDs()</code></p>
+<p></br>Elimina los filtros creados con <code>setfiltroIDs</code>.</p>
+<p></br></p>
+<h3 id="setfiltrobd">setFiltroBD</h3>
+<p></br></p>
+<pre><code>setFiltroBD([{
+  &quot;campo&quot;: &quot;&lt;nombre de campo encriptado&gt;&quot;,
+  &quot;valor&quot;: &quot;&lt;valor&gt;&quot;
+}])
+</code></pre>
+
+<p></br>Muestra en el mapa solamente los elementos que coincidan con los campos que queremos filtrar.</p>
+<p>Los datos no tienen por qué existir en el GeoJSON, deben existir en la Base de Datos IDErioja.</p>
+<p></br></p>
+<h3 id="unsetfiltrobd">unsetFiltroBD</h3>
+<p></br></p>
+<p><code>unsetFiltroBD()</code></p>
+<p></br>Elimina los filtros creados con <code>setfiltroBD</code>.</p>
+<p></br></p>
+<h3 id="abremodal">abreModal</h3>
+<p></br></p>
+<p><code>abreModal(&lt;url&gt;,&lt;ancho&gt;,&lt;alto&gt;)</code></p>
+<p></br>Abre un <em>iFrame</em> centrado en la patalla, por encima del mapa.</p>
+<p></br></p>
+<h2 id="ejemplo">Ejemplo</h2>
+<p></br></p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;es&quot;&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Test API IDErioja&lt;/title&gt;
+  &lt;style&gt;
+    body, html{
+      height: 100%;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      background-color: #e7e7e7;
+      overflow: hidden;
+    }
+    #map{
+      top: 10px;
+      width: 100%;
+      height: 500px;
+      border: 1px solid cornflowerblue;
+    }
+    #botones{
+      margin-top: 10px;
+      width: 750px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 0px solid red;
+    }
+  &lt;/style&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;botones&quot;&gt;
+      &lt;button type=&quot;button&quot; id=&quot;ir_log&quot;&gt;Ir a Logroño&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;z_mas&quot;&gt;Zoom +&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;z_menos&quot;&gt;Zoom -&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;ir_a_id&quot;&gt;Ir al ID 4057&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;filtrar_municipio&quot;&gt;Filtrar los de Logroño&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;quitar_filtros&quot;&gt;Eliminar filtros&lt;/button&gt;
+      &lt;button type=&quot;button&quot; id=&quot;z_todo&quot;&gt;Zoom elementos&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;map&quot;&gt;
+    &lt;/div&gt;
+    &lt;/body&gt;
+    &lt;script src=&quot;https://apigeo.larioja.org/iderioja.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-1.11.3.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+      var iderioja_config = {
+        &quot;consulta&quot;: &quot;5872436f7150784e763446756d79744a756c6e4c4a513d3d&quot; // Arboles
+      };
+      $( document ).ready(function() {
+        /* BOTONES EXTERNOS */
+        $(&quot;#ir_log&quot;).click(function() {
+          mapa_iderioja.ir_a_coordenada(42.46121, -2.44205, 13);
+        });
+        $(&quot;#z_mas&quot;).click(function() {
+          mapa_iderioja.zoom_mas();
+        });
+        $(&quot;#z_menos&quot;).click(function() {
+          mapa_iderioja.zoom_menos();
+        });
+        $(&quot;#ir_a_id&quot;).click(function() {
+          mapa_iderioja.ir_a_elemento(4057, 15);
+        });
+        $(&quot;#filtrar_municipio&quot;).click(function() {
+          mapa_iderioja.filtro_propiedad(&quot;Municipio&quot;, &quot;Logroño&quot;);
+        });
+        $(&quot;#quitar_filtros&quot;).click(function() {
+          mapa_iderioja.filtro_eliminar();
+        }); // Ajustar a los elementos del mapa
+        $(&quot;#z_todo&quot;).click(function() {
+        mapa_iderioja.ir_a_todo();
+        });
+        mapa_iderioja.crea_boton('&lt;span id=&quot;nivel_zoom&quot;&gt;&lt;/span&gt;', &quot;alert&quot;, [&quot;test!&quot;]);
+        mapa_iderioja.captura_zoom(&quot;nivel_zoom&quot;);
+        mapa_iderioja.crea_boton('fa fa-check-circle', &quot;filtro_propiedad&quot;, [&quot;Municipio&quot;, &quot;Logroño&quot;]);
+        mapa_iderioja.crea_boton('fa fa-eraser', &quot;filtro_eliminar&quot;, []);
+        mapa_iderioja.crea_boton('fa fa-crosshairs', &quot;ir_a_todo&quot;, []);
+        mapa_iderioja.crea_boton('fa fa-bell-o', &quot;abreModal&quot;, [&quot;http://www.larioja.org&quot;, 800, 700]); });
+        $(&quot;#filtrar_municipio&quot;).prop('disabled', true);
+          var interValRef = setInterval(&quot;checkState();&quot;,100);
+          function checkState(){
+            if(document.readyState == 'complete'){
+              clearInterval(interValRef);
+              $(&quot;#filtrar_municipio&quot;).prop('disabled', false);
+            }
+          }
+    &lt;/script&gt;
+&lt;/html&gt;
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

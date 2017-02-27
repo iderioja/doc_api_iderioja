@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>capa_kml - API js IDErioja</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">API js IDErioja</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../configuracion/">Configuración</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opciones <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../capa_geojson/">capa_geojson</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../capa_gpx/">capa_gpx</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">capa_kml</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../cluster_markers/">cluster_markers</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../consulta/">consulta</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../escala/">escala</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../estilo_hover/">estilo_hover</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../fondo_base/">fondo_base</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../ids/">ids</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../init_lat-init_lng/">init_lat,init_lng</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../leyenda/">leyenda</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../localizacion/">localizacion</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../minimapa/">minimapa</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../popup/">popup</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../selector_capas/">selector_capas</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../tag_mapa/">tag_mapa</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../zoom_inicial/">zoom_inicial</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../metodos/metodos/">Métodos</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../licencia/">Licencia</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../about/">About</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../capa_gpx/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../cluster_markers/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#capa_kml">capa_kml</a></li>
+        
+            <li><a href="#propiedades">Propiedades</a></li>
+        
+            <li><a href="#codigo-de-ejemplo">Código de ejemplo</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="capa_kml">capa_kml</h1>
+<p></br></p>
+<p>La opción <code>capa_kml</code> permite definir un <em>array</em> de archivos con la información geográfica a visualizar, expresados en formato <em><a href="https://developers.google.com/kml/documentation/?hl=es">KML</a></em> (Keyhole Markup Language)</p>
+<p></br>Notas:</p>
+<p>(1) Esta funcionalidad se apoya en los servicios que ofrece el plugin <em><a href="https://github.com/mapbox/leaflet-omnivore">leaflet_omnivore</a></em> desarrollado por <em><a href="https://www.mapbox.com/">MapBox</a></em>, para la librería JavaScript de mapas <em><a href="http://leafletjs.com/">Leaflet</a></em>. Para ampliar la información sobre su funcionamiento y opciones se recomienda consultar la <a href="https://github.com/mapbox/leaflet-omnivore/blob/master/README.md">documentación original</a>.</p>
+<p>(2) Para datos que pudieran mapearse desde una carpeta <em>'Public'</em> de <em>Dropbox</em>, se informa <a href="https://www.dropbox.com/es/help/16">según lo anunciado por esta compañía</a>, que a partir del 15 de marzo de 2017 la carpeta <em>Public</em> se convertirá automáticamente en una carpeta estándar.</p>
+<p></br></p>
+<h3 id="propiedades">Propiedades</h3>
+<p></br></p>
+<p>En esta opción además de las propiedades <code>nombre</code> y <code>url</code>, es posible configurar la representación de los elementos geográficos mediante un conjunto de parámetros de estilo.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Propiedad</th>
+<th align="left">Parámetro</th>
+<th align="left">Tipo</th>
+<th align="center">V.defecto</th>
+<th align="left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>nombre</code></td>
+<td align="left"></td>
+<td align="left">texto</td>
+<td align="center">(nulo)</td>
+<td align="left">Nombre de la capa geográfica.</td>
+</tr>
+<tr>
+<td align="left"><code>url</code></td>
+<td align="left"></td>
+<td align="left">texto</td>
+<td align="center">(nulo)</td>
+<td align="left"><strong>(Obligatorio)</strong> URL absoluta o relativa en la que se ubica el fichero GeoJSON.</td>
+</tr>
+<tr>
+<td align="left"><code>estilo</code></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="left">Representación gráfica de polilíneas y polígonos</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>stroke</code></td>
+<td align="left">booleano</td>
+<td align="center">'true'</td>
+<td align="left">Expresa si se quiere dibujar el trazado exterior (contorno) de un elemento gráfico.</br>Configurar como 'false' si se quiere prescindir de los bordes en la representación de polígonos o círculos.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>color</code></td>
+<td align="left">texto</td>
+<td align="center">'#ff7800'</td>
+<td align="left">Color del trazo expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre (<a href="https://www.w3.org/TR/SVG/types.html#ColorKeywords">lista de colores</a>).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>weight</code></td>
+<td align="left">entero</td>
+<td align="center">2</td>
+<td align="left">Anchura del trazo expresada en píxeles.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>opacity</code></td>
+<td align="left">número</td>
+<td align="center">0.5</td>
+<td align="left">Opacidad del trazo.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>lineCap</code></td>
+<td align="left">texto</td>
+<td align="center">'round'</td>
+<td align="left">Texto que define la forma que se utilizará para rematar el trazo.</br>Valores posibles: <a href="https://www.w3.org/TR/SVG/painting.html#StrokeLinecapProperty">'butt', 'round', 'square'</a>.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>lineJoin</code></td>
+<td align="left">texto</td>
+<td align="center">'round'</td>
+<td align="left">Texto que define la forma que se utilizará para rematar la esquina de un trazo.</br>Valores posibles: <a href="https://www.w3.org/TR/SVG/painting.html#StrokeLinejoinProperty">'miter', 'round', 'bevel'</a>.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>dashArray</code></td>
+<td align="left">texto</td>
+<td align="center">(nulo)</td>
+<td align="left">Cadena de texto que define el patrón de dibujo del trazo.</br>Se expresa mediante una lista de valores separada por comas o espacios en blanco, indicando estos la <em>longitud</em> o <em>porcentajes</em> de los trazados alternativos de líneas y huecos. Si se usa un <em>porcentaje</em>, este representa una distancia como un porcentaje con respecto a la ventana de visualización actual.</br>Los valores negativos son erróneos. Si la suma de los valores es cero, el trazo se renderizará como si se hubiera especificado el valor nulo.</br>Si se indica un número impar de valores, se repite la lista hasta alcanzar un número par de valores. Por ejemplo '1,3,2' es equivalente a '1,3,2,1,3,2'.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>dashOffset</code></td>
+<td align="left">texto</td>
+<td align="center">(nulo)</td>
+<td align="left">Texto que expresa la distancia en <em>longitud</em> o <em>porcentaje</em> entre el comienzo del trazo y la representación del trazado. Si se usa un <em>porcentaje</em>, este representa una distancia como un porcentaje con respecto a la ventana de visualización actual.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>fill</code></td>
+<td align="left">booleano</td>
+<td align="center">'true'</td>
+<td align="left">Esta variable define si se procede a colorear el interior de las formas gráficas.</br>El área a colorear es cualquier conjunto de áreas dentro del contorno de la forma, considerando el contorno como la línea perimetral de ancho cero.</br>Para determinar el interior del elemento se tendrán en cuenta todas las subformas conforme a las reglas establecidas en la variable <em>fillRule</em>.</br>El valor 'true' activa el coloreado de las formas gráficas, en tanto que el valor 'false' deshabilita su coloreado.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>fillColor</code></td>
+<td align="left">texto</td>
+<td align="center">(<em>color</em>)</td>
+<td align="left">Color de relleno expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre (<a href="https://www.w3.org/TR/SVG/types.html#ColorKeywords">lista de colores</a>).</br>El valor por defecto es el correspondiente al parámetro <em>color</em>.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>fillOpacity</code></td>
+<td align="left">número</td>
+<td align="center">0.2</td>
+<td align="left">Opacidad del relleno.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>fillRule</code></td>
+<td align="left">texto</td>
+<td align="center">'evenodd'</td>
+<td align="left">Texto que define de qué manera se determina el interior de una forma gráfica.</br>Valores posibles: <a href="https://www.w3.org/TR/SVG/painting.html#FillRuleProperty">'nonzero', 'evenodd'</a></td>
+</tr>
+<tr>
+<td align="left"><code>icono</code></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="left">Representación gráfica de marcas e iconos</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>iconUrl</code></td>
+<td align="left">texto</td>
+<td align="center"><a href="https://apigeo.larioja.org/images/marker-icon.png">Símbolo por defecto</a></td>
+<td align="left">URL absoluta o relativa en la que se ubica la imagen del icono.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>iconRetinaUrl</code></td>
+<td align="left">texto</td>
+<td align="center"><a href="https://apigeo.larioja.org/images/marker-icon-2x.png">Símbolo por defecto</a></td>
+<td align="left">URL  absoluta o relativa en la que se ubica la imagen del icono, configurada para su uso en dispositivos que soportan el estándar "retina".</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>iconSize</code></td>
+<td align="left">[x, y]</td>
+<td align="center">[25,41]</td>
+<td align="left">Tamaño de la imagen del icono (expresado en píxeles).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>iconAnchor</code></td>
+<td align="left">[x, y]</td>
+<td align="center">[12,41]</td>
+<td align="left">Coordenadas del "anclaje" del icono (relativas a su esquina superior-izquierda).</br>El icono se alineará con objeto de que este punto sea la ubicación geográfica del marcador.</br>Si se ha especificado el tamaño (<em>iconSize</em>), el valor utilizado por defecto es centrado.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>popupAnchor</code></td>
+<td align="left">[x, y]</td>
+<td align="center">[1,-34]</td>
+<td align="left">Coordenadas del punto en las que se abrirá la ventana emergente, respecto al punto de anclaje del icono.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>shadowUrl</code></td>
+<td align="left">texto</td>
+<td align="center"><a href="https://apigeo.larioja.org/images/marker-shadow.png">Símbolo por defecto</a></td>
+<td align="left">URL del icono de sombreado.</br>Si no se especifica, no se utilizará sombreado.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>shadowRetinaUrl</code></td>
+<td align="left">texto</td>
+<td align="center">(nulo)</td>
+<td align="left">URL de la imagen "retina" utilizada para el sombreado del icono. Si no se especifica, no se utilizará sombreado.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>shadowSize</code></td>
+<td align="left">[x, y]</td>
+<td align="center">(nulo)</td>
+<td align="left">Tamaño de la imagen de sombreado (expresado en píxeles).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><code>shadowAnchor</code></td>
+<td align="left">[x, y]</td>
+<td align="center">(nulo)</td>
+<td align="left">Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor <em>iconAnchor</em>.</td>
+</tr>
+</tbody>
+</table>
+<p></br></p>
+<h3 id="codigo-de-ejemplo">Código de ejemplo</h3>
+<p></br></p>
+<p>El siguiente ejemplo muestra la configuración para la inclusión de dos ficheros geográficos kml:</p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head lang=&quot;es&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Ejemplo de configuración capa_kml&lt;/title&gt;
+    &lt;style&gt;
+      body, html{
+        height: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      #map{
+        width: 100%;
+        height: 100%;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+  &lt;/body&gt;
+  &lt;script&gt;
+    var iderioja_config = {
+      &quot;capa_kml&quot;: [
+        {
+          &quot;nombre&quot;: &quot;Montañas del Mundo&quot;,
+          &quot;url&quot;: &quot;https://raw.githubusercontent.com/tucnak/marble/66cf19efddf791e9ee74e842369f2a2bd75526d7/data/placemarks/elevplacemarks.kml&quot;,
+          &quot;icono&quot;:{
+            iconUrl:'http://svn.openstreetmap.org/applications/share/map-icons/2020iconset/2020_st_triangle_2.svg',
+            iconSize: [24, 24], // tamaño del icono
+            iconAnchor: [12, 24], // punto geográfico respecto al xy del icono
+            popupAnchor: [0, -24] // punto de anclaje de la burbuja de datos
+          }
+        },
+        {
+          &quot;nombre&quot;: &quot;Algerie_Telecom&quot;,
+          &quot;url&quot;: &quot;https://raw.githubusercontent.com/stevesong/afterfibre-kml/master/Algeria/Algerie_Telecom/Algerie_Telecom.kml&quot;,
+          &quot;estilo&quot;: {
+            &quot;color&quot;: &quot;#ff0000&quot;,
+            &quot;weight&quot;: 1,
+            &quot;opacity&quot;: 1
+          }
+        }
+      ]
+    }
+  &lt;/script&gt;
+  &lt;script src=&quot;https://apigeo.larioja.org/v1/iderioja.js&quot;&gt;&lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p></br></p>
+<h4 id="salida-grafica">Salida gráfica</h4>
+<p></br></p>
+<p>Detalle de un mapa en el que se han incorporado dos archivos kml almacenados en GitHub. Uno de puntos, denominado <a href="https://github.com/tucnak/marble/blob/master/data/placemarks/elevplacemarks.kml">montañas del mundo</a>, al cual se le ha aplicado una simbolización por medio de un icono, y otro que recoge el trazado de las <a href="https://github.com/stevesong/afterfibre-kml/blob/master/Algeria/Algerie_Telecom/Algerie_Telecom.kml">redes de telecomunicaciones de Argelia</a>, en el que también se han configurado algunas propiedades gráficas. <a href="https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_kml">(visualizar ejemplo)</a></p>
+<p><img alt="Ejemplo opción capa_kml" src="../../img/opciones_capa_kml_salida_grafica.jpg" title="Ejemplo opción capa_kml" /></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
