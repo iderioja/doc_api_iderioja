@@ -88,6 +88,31 @@ Opción | Tipo | Valor def. | Descripción
 ### Métodos
 </br>
 
+Método|Descripción
+:---|:---
+[crea_boton](/metodos/metodos/#crea_boton)|Añade un botón dentro del mapa que al pulsarlo ejecuta la función que se le pasa como parámetro.
+[captura_zoom](/metodos/metodos/#captura_zoom)|Inserta el valor del zoom actual en el ID del elemento de DOM que se indique.
+[ir_a_coordenada](/metodos/metodos/#ir_a_coordenada)|Sitúa el mapa en la coordenada y el nivel de zoom especificados.
+[ir_a_elemento](/metodos/metodos/#ir_a_elemento)|Sitúa el mapa en el ID del elemento indicado con el nivel de zoom seleccionado.<br />Se abren las propiedades del elemento.
+[ir_a_todo](/metodos/metodos/#ir_a_todo)|Centra el mapa para que todos los elementos aparezcan, ajustando también el nivel de zoom.
+[zoom_mas](/metodos/metodos/#zoom_mas)|Acerca el mapa.
+[zoom_menos](/metodos/metodos/#zoom_menos)|Aleja el mapa.
+[carga_fondo](/metodos/metodos/#carga_fondo)|Carga un fondo en formato tile server.
+[carga_fondo_wmts](/metodos/metodos/#carga_fondo_wmts)|Carga un fondo en formato WMTS.
+[carga_capa_notiled_wms](/metodos/metodos/#carga_capa_notiled_wms)|Carga una capa WMTS sin tilear.
+[carga_capa_geojson](/metodos/metodos/#carga_capa_geojson)|Carga una capa en formato GeoJSON.
+[carga_capa_kml](/metodos/metodos/#carga_capa_kml)|Carga una capa en formato KML.
+[carga_capa_gpx](/metodos/metodos/#carga_capa_gpx)|Carga una capa en formato GPX.
+[eliminaCapasMapa](/metodos/metodos/#eliminacapasmapa)|Suprime todas las capas del mapa.
+[eliminaCapasBaseMapa](/metodos/metodos/#eliminacapasbasemapa)|Suprime las capas del tipo *BaseLayer*.
+[setFiltroProp](/metodos/metodos/#setfiltroprop)|Muestra en el mapa solamente los elementos que coincidan con el valor del atributo seleccionado.
+[unsetFiltroProp](/metodos/metodos/#unsetfiltroprop)|Elimina los filtros creados con `setfiltroProp`.
+[setFiltroIDS](/metodos/metodos/#setfiltroids)|Muestra en el mapa solamente los elementos que coincidan con los identificadores (IDs) seleccionados.
+[unsetFiltroIDs](/metodos/metodos/#unsetfiltroids)|Elimina los filtros creados con `setfiltroIDs`.
+[setFiltroBD](/metodos/metodos/#setfiltrobd)|Muestra en el mapa solamente los elementos que coincidan con los campos que queremos filtrar.
+[unsetFiltroBD](/metodos/metodos/#unsetfiltrobd)|Elimina los filtros creados con `setfiltroBD`.
+[abreModal](/metodos/metodos/#abremodal)|Abre un *iFrame* centrado en la patalla, por encima del mapa.
+
 </br>
 ### Componentes
 </br>
