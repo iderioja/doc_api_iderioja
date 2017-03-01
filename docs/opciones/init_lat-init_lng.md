@@ -18,6 +18,7 @@ El siguiente ejemplo centra la presentación inicial del mapa en la ciudad de Ma
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración init_lat,init_lng</title>
     <style>
       body, html{

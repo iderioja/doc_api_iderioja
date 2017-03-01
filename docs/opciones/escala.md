@@ -16,6 +16,7 @@ El siguiente ejemplo muestra el código necesario para añadir al mapa una escal
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración escala</title>
     <style>
       body, html{

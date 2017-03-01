@@ -56,6 +56,7 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración capa_geojson</title>
     <style>
       body, html{
@@ -106,9 +107,11 @@ En este caso, la visualización de los polígonos de los [departamentos de Franc
 El siguiente ejemplo muestra la configuración para la representación de dos capas GeoJSON CSS: [*Medios contra incendios forestales*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson) y [*Parque Natural Sierra de Cebollera (La Rioja)*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json).
 
 ```html
+<!DOCTYPE html>
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración capa_geojson_css</title>
     <style>
       body, html{

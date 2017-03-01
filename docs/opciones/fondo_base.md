@@ -10,8 +10,8 @@ IDErioja - Relieve|`"iderioja-relieve"`|`4`|TS|https://ts0.larioja.org/mb_reliev
 [IGN Mapa Base](http://www.ign.es/wmts/ign-base?request=GetCapabilities&service=WMTS)|`"ign-base"`|`100`|WMTS|http://www.ign.es/wmts/ign-base (Layer=IGNBaseTodo)
 [PNOA (SCN) - Ortofotografía aérea](http://www.ign.es/wmts/pnoa-ma?request=GetCapabilities&service=WMTS)|`"pnoa-ortofoto"`|`101`|WMTS|http://www.ign.es/wmts/pnoa-ma (layer=OI.Orthoimage)
 [OpenStreetMap Standard](http://wiki.openstreetmap.org/wiki/Standard_tile_layer)|`"osm-standard"`|`700`|TS|https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
-[CartoDB - Light_all](https://carto.com/location-data-services/basemaps/)|`"carto-light_all"`|`800`|TS|https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png
-[CartoDB - Dark_all](https://carto.com/location-data-services/basemaps/)|`"carto-dark_all"`|`801`|TS|https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png
+[Carto - Light_all](https://carto.com/location-data-services/basemaps/)|`"carto-light_all"`|`800`|TS|https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png
+[Carto - Dark_all](https://carto.com/location-data-services/basemaps/)|`"carto-dark_all"`|`801`|TS|https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png
 {Sin fondo}|`"blanco"`|`999`||
 
 </br>La opción se puede configurar especificando su etiqueta de texto o su correspondiente valor numérico, siendo ambas opciones equivalentes.
@@ -42,6 +42,7 @@ El siguiente ejemplo inicializa el mapa con el fondo cartográfico de la Ortofot
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración fondo_base</title>
     <style>
       body, html{

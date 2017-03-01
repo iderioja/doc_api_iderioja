@@ -23,7 +23,8 @@ Se presenta a continuación el código del fichero html para la representación 
 <html>
   <head lang="es">
     <meta charset="UTF-8">
-    <title>Ejemplo de configuración popup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Ejemplo de configuración API IDErioja</title>
     <style>
       body, html{
         height: 100%;
@@ -42,13 +43,8 @@ Se presenta a continuación el código del fichero html para la representación 
   </body>
   <script>
     var iderioja_config = {
-      "fondo_base": 800,
-      "capa_geojson": [
-        {"nombre": "CupCakes",
-          "url": "https://raw.githubusercontent.com/lyzidiamond/learn-geojson/master/geojson/cupcakes.geojson", // CupCakes
-        }
-      ],
-	  "popup": 2
+      "consulta": "4d4b792f6469754163366644435862454d7a314e47773d3d"
+      // Estaciones de medición
     }
   </script>
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>

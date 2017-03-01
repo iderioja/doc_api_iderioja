@@ -24,6 +24,7 @@ El siguiente ejemplo se representan dos elementos, con los identificadores: *153
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración ids</title>
     <style>
       body, html{

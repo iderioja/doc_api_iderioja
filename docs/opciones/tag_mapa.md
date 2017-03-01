@@ -12,10 +12,10 @@ Por defecto el *id* utilizado es `"map"`.
 El siguiente ejemplo dirige la salida a un `<div>` denominado `"mi_mapa"`.
 
 ```html
-<!DOCTYPE html>
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración tag_mapa</title>
     <style>
       body, html{

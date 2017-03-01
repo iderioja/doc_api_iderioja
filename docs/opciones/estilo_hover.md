@@ -35,6 +35,7 @@ El siguiente ejemplo muestra la configuración de la función *hover* actuando s
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración estilo_hover</title>
     <style>
       body, html{

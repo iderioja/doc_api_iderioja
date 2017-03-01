@@ -56,6 +56,7 @@ El siguiente ejemplo muestra la configuración para la visualización de un fich
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración capa_gpx</title>
     <style>
       body, html{

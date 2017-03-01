@@ -22,6 +22,7 @@ El ejemplo que se muestra configura el selector de capas con la opción "*minise
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración selector_capas</title>
     <style>
       body, html{
@@ -42,7 +43,7 @@ El ejemplo que se muestra configura el selector de capas con la opción "*minise
   <script>
     var iderioja_config = {
       "selector_capas": 2
-    }
+	}
   </script>
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
@@ -58,6 +59,6 @@ Ejemplo de uso de la opción *selector_capas=1* (selector estándar Leaflet) [(v
 
 </br>
 
-Ejemplo de uso de la opción *selector_capas=2* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_2)
+Ejemplo de uso de la opción *selector_capas=2* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_2)
 
 ![Ejemplo de uso de la opción selector_capas=2](/img/opciones_selector_capas_salida_grafica_2.jpg "Ejemplo de uso de la opción selector_capas = 2")

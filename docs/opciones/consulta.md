@@ -26,6 +26,7 @@ El siguiente ejemplo utiliza la consulta de IDErioja: "*796249706e544633612b4776
 <html>
   <head lang="es">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Ejemplo de configuración consulta</title>
     <style>
       body, html{

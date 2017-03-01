@@ -55,7 +55,8 @@ En el siguiente ejemplo se establece un valor inicial de zoom = *7*.
 <html>
   <head lang="es">
     <meta charset="UTF-8">
-    <title>Ejemplo de configuración tag_mapa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Ejemplo de configuración zoom_inicial</title>
     <style>
       body, html{
         height: 100%;
