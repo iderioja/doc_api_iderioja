@@ -253,7 +253,8 @@
 &lt;html&gt;
   &lt;head lang=&quot;es&quot;&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;title&gt;Ejemplo de configuración popup&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+    &lt;title&gt;Ejemplo de configuración API IDErioja&lt;/title&gt;
     &lt;style&gt;
       body, html{
         height: 100%;
@@ -272,13 +273,8 @@
   &lt;/body&gt;
   &lt;script&gt;
     var iderioja_config = {
-      &quot;fondo_base&quot;: 800,
-      &quot;capa_geojson&quot;: [
-        {&quot;nombre&quot;: &quot;CupCakes&quot;,
-          &quot;url&quot;: &quot;https://raw.githubusercontent.com/lyzidiamond/learn-geojson/master/geojson/cupcakes.geojson&quot;, // CupCakes
-        }
-      ],
-      &quot;popup&quot;: 2
+      &quot;consulta&quot;: &quot;4d4b792f6469754163366644435862454d7a314e47773d3d&quot;
+      // Estaciones de medición
     }
   &lt;/script&gt;
   &lt;script src=&quot;https://apigeo.larioja.org/v1/iderioja.js&quot;&gt;&lt;/script&gt;

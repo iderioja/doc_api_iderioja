@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/configuracion/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,103 +21,103 @@
         
     <url>
      <loc>/opciones/capa_geojson/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/capa_gpx/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/capa_kml/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/cluster_markers/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/consulta/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/escala/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/estilo_hover/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/fondo_base/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/ids/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/init_lat-init_lng/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/leyenda/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/localizacion/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/minimapa/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/popup/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/selector_capas/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/tag_mapa/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/opciones/zoom_inicial/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -126,7 +126,7 @@
     
     <url>
      <loc>/metodos/metodos/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -134,7 +134,7 @@
     
     <url>
      <loc>/licencia/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -142,7 +142,7 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2017-02-27</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
