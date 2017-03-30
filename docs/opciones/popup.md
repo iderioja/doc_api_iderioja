@@ -1,5 +1,5 @@
 # popup
-</br>
+<br />
 
 La opción `popup` permite definir la forma en la que se presentan los datos asociados a un elementos geográfico, cuando este es seleccionado.
 
@@ -7,15 +7,15 @@ El parámetro admite los siguientes valores:
 
 - **`0`**- No muestra ninguna información asociada con el elemento geográfico seleccionado.
 - **`1`**- Los atributos del elemento se visualizan mediante un bocadillo sobre la zona de mapa (valor por defecto).  
-- **`2`**- Se muestran los atributos del elemento seleccionado mediante el despliegue de una cortina lateral.
+- **`2`**- Se muestran los atributos del elemento seleccionado mediante el despliegue de un panel lateral de información.
 
-</br>Notas:
+<br />Notas:
 
 La opción `2` está especialmente recomendada para dispositivos con patallas de pequeño tamaño y en los casos en que existe un gran número de atributos o estos tienen una gran extensión.
 
-</br>
+<br />
 ### Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración de la función *popup* actuando sobre una capa GeoJSON.
 
@@ -57,9 +57,9 @@ El siguiente ejemplo muestra la configuración de la función *popup* actuando s
 </html>
 ```
 
-</br>
+<br />
 #### Salida gráfica
-</br>
+<br />
 
 En este ejemplo, la función *popup* presenta los atributos del elemento selecionado en una cortina lateral.
 

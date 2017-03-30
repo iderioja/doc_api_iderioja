@@ -1,13 +1,13 @@
 # escala
-</br>
+<br />
 
 La opción `escala` permite mostrar en la esquina inferior izquierda del mapa, una barra con una *escala gráfica* de acuerdo con su nivel de detalle.
 
 El valor *`1`* activa la visualización de la escala gráfica. El valor *`0`* oculta la visualización, siendo este último el valor por defecto.
 
-</br>
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo muestra el código necesario para añadir al mapa una escala gráfica:
 
@@ -43,9 +43,9 @@ El siguiente ejemplo muestra el código necesario para añadir al mapa una escal
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Detalle del mapa en el que se puede apreciar la escala gráfica. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_escala)
 

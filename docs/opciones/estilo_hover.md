@@ -1,19 +1,19 @@
 # estilo_hover
-</br>
+<br />
 
-Se denomina *hover* (en inglés 'planear') a la función que permite resaltar un elemento geográfico cuando pasa el puntero sobre él.
+Se denomina *hover* (en inglés 'planear') a la función que permite resaltar un elemento geográfico de tipo *línea* o *polígono*, cuando pasa el puntero sobre él.
 
 La opción `estilo_hover` permite definir los parámetros de simbolización necesarios para realzar la visualización del elemento.
 
 Se define solamente una sola vez, aplicándose a todas las capas geográficas del mapa.
 
-</br>Notas:
+<br />Notas:
 
 En caso de no definir alguno de los parámetrós posibles, se utilizan por defecto los valores que se indican.
 
-</br>
+<br />
 ###Propiedades
-</br>
+<br />
 
 Propiedad|Parámetro|Tipo|V.defecto|Descripción
 :---|:---|:---|:---:|:---
@@ -24,9 +24,9 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`fillColor`|texto|(*color*)|Color de relleno expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre ([lista de colores](https://www.w3.org/TR/SVG/types.html#ColorKeywords)).</br>El valor por defecto es el correspondiente al parámetro *color*.
 ||`fillOpacity` |número|0.2|Opacidad del relleno.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).
 
-</br>
+<br />
 ### Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración de la función *hover* actuando sobre una capa GeoJSON.
 
@@ -75,9 +75,9 @@ El siguiente ejemplo muestra la configuración de la función *hover* actuando s
 </html>
 ```
 
-</br>
+<br />
 #### Salida gráfica
-</br>
+<br />
 
 La función hover del ejemplo resalta los elementos que se encuentran por debajo del puntero mediante un borde regruesado de color rojo. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_estilo_hover)
 

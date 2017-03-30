@@ -6,6 +6,7 @@ pages:
     - capa_geojson: opciones/capa_geojson.md
     - capa_gpx: opciones/capa_gpx.md
     - capa_kml: opciones/capa_kml.md
+    - control_zoom: opciones/control_zoom.md
     - cluster_markers: opciones/cluster_markers.md
     - consulta: opciones/consulta.md
     - escala: opciones/escala.md

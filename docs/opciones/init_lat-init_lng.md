@@ -1,5 +1,5 @@
 # init_lat, init_lng
-</br>
+<br />
 
 Las opciones `init_lat` e `init_lng` definen la posición del centrado inicial del mapa en coordenadas geográficas (*latitud*,*longitud*), en ese orden.
 
@@ -7,9 +7,9 @@ Si no se especifican, el mapa se centrará por defecto en las coordenadas (*42.3
 
 Las coordenadas se deberán expresar en *grados* y *decimales de grado*, indicando su cuadrante geográfico mediante el uso de los signos: Norte (**+**), Sur (**-**), Este (**+**) y Oeste (**-**).
 
-</br>
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo centra la presentación inicial del mapa en la ciudad de Madrid (40.4169473, -3.7035285).
 
@@ -45,9 +45,9 @@ El siguiente ejemplo centra la presentación inicial del mapa en la ciudad de Ma
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Ejemplo de uso de la opción  *init_lat = 40.4169473*,  *init_lng = -3.7035285*. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_init_lat-init_lng)
 

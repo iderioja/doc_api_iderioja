@@ -1,5 +1,5 @@
 # localizacion
-</br>
+<br />
 La opción `localizacion` permite visualizar sobre el mapa la ubicación del usuario.
 
 La función se activa con el valor **`1`**. Esta opción presenta en el visualizador un botón que permite ver sobre el mapa la posición del dispositivo. Si no se especifica un valor o este parámetro se configura con el valor **`0`**, no se muestra.
@@ -10,9 +10,9 @@ Notas:
 
 (1) - Para el correcto funcionamiento de esta función, es requisito imprescindible que previamente se encuentre activada en el dispositivo la opción de *"localización"*.
 
-</br>
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración para la activación del botón de localización:
 
@@ -48,9 +48,9 @@ El siguiente ejemplo muestra la configuración para la activación del botón de
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Detalle de mapa en el que se ha incluido el botón de localización.  [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_localizacion)
 

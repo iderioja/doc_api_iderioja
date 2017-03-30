@@ -1,5 +1,5 @@
 # minimapa
-</br>
+<br />
 
 La opción `minimapa` muestra un pequeño *mapa guía* en la parte inferior derecha del mapa principal.
 
@@ -9,11 +9,19 @@ El usuario puede desplazar la visualización del mapa principal arrastrando el f
 
 El mapa guía ofrece en su interior un botón que permite minimizar o recuperar su visualización.
 
-El valor **`1`** activa la visualización del *mapa guía*. El valor **`0`** oculta la visualización, siendo este último el valor por defecto.
+El valor **`1`**, **`2`**, **`4`** o **`5`** activa la visualización del *mapa guía*. El valor **`0`** oculta la visualización, siendo este último el valor por defecto.
 
-</br>
+|Valor|Fondo cartográfico del minimapa
+---|---
+`0`|Sin minimapa (valor por defecto)
+`1`|IDErioja - Mapa base
+`2`|IDErioja - Ortofografía aérea
+`4`|IDErioja - Relieve
+`5`|OpenStreetMap Standard
+
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo ofrece una visualización en la que se incluye un pequeño mapa guía:
 
@@ -49,9 +57,9 @@ El siguiente ejemplo ofrece una visualización en la que se incluye un pequeño 
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Representación de mapa con inclusión de la herramienta mapa guía en su esquina inferior-derecha. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_minimapa)
 

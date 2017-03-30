@@ -1,19 +1,20 @@
 # selector_capas
-</br>
+<br />
 La opción `selector_capas` configura la oferta y apariencia del *selector de capas*, admitiendo las siguientes posibilidades:
 
 - **`0`**- No muestra ningún selector de capas (opción por defecto).
 - **`1`**- Activa el tipo de selector de capas que ofrece de forma estándar la librería javascript *[Leaflet](http://leafletjs.com/)*.  
 Presenta los fondos cartográficos que se ofertan por defecto y las capas incluidas en la *consulta IDErioja*.
-- **`2`**- Muestra un *"miniselector"* con dos opciones: **Mapa** (Mapa Base IDErioja) y **Satélite** (Ortofoto IDErioja)  *(1)
+- **`2`**- Muestra un *"miniselector"* con dos opciones: **Mapa** (Mapa Base IDErioja) y **Satélite** (Ortofoto IDErioja).  *(1)
+- **`3`**- El selector de capas muestra la capa definida en la opción `fondo_base`
 
-</br>Notas:
+<br />Notas:
 
 (1) El valor `2` (miniselector), invalida cualquier otro fondo cartográfico elegido mediante la opción [fondo_base](opciones/fondo_base). Aunque el fondo elegido mediante esta opción pueda aparecer en una primera instancia, desaparecerá al pulsar cualquiera de los botones del miniselector, para no volver a mostrarse.
 
-</br>
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El ejemplo que se muestra configura el selector de capas con la opción "*miniselector*" (selector_capas=2).
 
@@ -49,16 +50,22 @@ El ejemplo que se muestra configura el selector de capas con la opción "*minise
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Ejemplo de uso de la opción *selector_capas=1* (selector estándar Leaflet) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_1)
 
 ![Ejemplo de uso de la opción selector_capas=1](/img/opciones_selector_capas_salida_grafica_1.jpg "Ejemplo de uso de la opción selector_capas = 1")
 
-</br>
+<br />
 
 Ejemplo de uso de la opción *selector_capas=2* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_2)
 
 ![Ejemplo de uso de la opción selector_capas=2](/img/opciones_selector_capas_salida_grafica_2.jpg "Ejemplo de uso de la opción selector_capas = 2")
+
+<br />
+
+Ejemplo de uso de la opción *selector_capas=3* (miniselector IDErioja) [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_selector_capas_3)
+
+![Ejemplo de uso de la opción selector_capas=3](/img/opciones_selector_capas_salida_grafica_3.jpg "Ejemplo de uso de la opción selector_capas = 3")

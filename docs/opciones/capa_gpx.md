@@ -1,19 +1,19 @@
 #capa_gpx
-</br>
+<br />
 
 La opción `capa_gpx` permite  definir un *array* de archivos con la información geográfica a visualizar, expresados en formato *[GPX](http://www.topografix.com/gpx.asp)* (The GPS Exchange Format)
 
 El formato de intercambio GPX es un esquema XML ligero pensado para transferir datos GPS entre aplicaciones y servicios web en Internet. Se utiliza para describir *puntos* (waypoints), *recorridos* (tracks) y *rutas* (routes).
 
-</br>Notas:
+<br />Notas:
 
 (1) Esta funcionalidad se apoya en los servicios que ofrece el plugin *[leaflet_omnivore](https://github.com/mapbox/leaflet-omnivore)* desarrollado por *[MapBox](https://www.mapbox.com/)*, para la librería JavaScript de mapas *[Leaflet](http://leafletjs.com/)*. Para ampliar la información sobre su funcionamiento y opciones se recomienda consultar la [documentación original](https://github.com/mapbox/leaflet-omnivore/blob/master/README.md).
 
-(2) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
+(2) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
 
-</br>
+<br />
 ###Propiedades
-</br>
+<br />
 
 En esta opción además de las propiedades `nombre` y `url`, es posible configurar la representación de los elementos geográficos mediante un conjunto de parámetros de estilo.
 
@@ -45,9 +45,9 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowSize`|[x, y]|(nulo)|Tamaño de la imagen de sombreado (expresado en píxeles).
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
 
-</br>
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración para la visualización de un fichero gpx que contiene el trazado de un recorrido (track) registrado con GPS:
 
@@ -93,9 +93,9 @@ El siguiente ejemplo muestra la configuración para la visualización de un fich
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Representación del [fichero GPX](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/ruta_gps_achichuelo_nuevo.gpx) que describe el recorrido (track) GPS denominado *Achichuelo Nuevo* en la Provincia de La Rioja (España), en la que se han configurado el color, el grosor y el patrón de la línea.  [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_gpx)
 

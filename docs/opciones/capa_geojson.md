@@ -1,5 +1,5 @@
 # capa_geojson
-</br>
+<br />
 
 La opción `capa_geojson` permite definir un *array* de archivos locales o de servidores externos que contienen las capas geográficas a visualizar.
 
@@ -7,13 +7,13 @@ Los datos geográficos deberán estar expresados en formato [GeoJSON](http://geo
 
 Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS) definido por [OpenStreetMap](https://www.openstreetmap.org), se utilizará por defecto la simbolización que venga definida en el fichero de datos para cada uno de sus elementos. En el caso de que se especifiquen propiedades de *estilo* y/o *icono*, estas modificarán a las contenidas en el fichero GeoJSON CSS.
 
-</br>Notas:
+<br />Notas:
 
-(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se convertirá automáticamente en una carpeta estándar.
+(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
 
-</br>
+<br />
 ###Propiedades
-</br>
+<br />
 
 En esta opción además de las propiedades `nombre` y `url`, es posible configurar la representación de los elementos geográficos mediante un conjunto de parámetros de estilo.
 
@@ -45,9 +45,9 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowSize`|[x, y]|(nulo)|Tamaño de la imagen de sombreado (expresado en píxeles).
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
 
-</br>
+<br />
 ### Código de ejemplo 1
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración para una capa GeoJSON que contiene los datos geográficos de los [Departamentos de Francia](https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson), que se encuentra almacenada en un repositorio GitHub.
 
@@ -92,17 +92,17 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 </html>
 ```
 
-</br>
+<br />
 #### Salida gráfica
-</br>
+<br />
 
 En este caso, la visualización de los polígonos de los [departamentos de Francia](https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson) se ha personalizado definiendo su color, grosor de línea y transparencia. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
 
 ![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_salida_grafica.jpg "Ejemplo opción capa_geojson")
 
-</br>
+<br />
 ### Código de ejemplo 2
-</br>
+<br />
 
 El siguiente ejemplo muestra la configuración para la representación de dos capas GeoJSON CSS: [*Medios contra incendios forestales*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/medios_lucha_contra_incendios_forestales.geojson) y [*Parque Natural Sierra de Cebollera (La Rioja)*](https://raw.githubusercontent.com/iderioja/doc_api_iderioja/master/datos_ejemplo/parque_natural_sierra_de_Cebollera.json).
 
@@ -147,9 +147,9 @@ El siguiente ejemplo muestra la configuración para la representación de dos ca
 </html>
 ```
 
-</br>
+<br />
 #### Salida gráfica
-</br>
+<br />
 
 Por tratarse ambas capas de ficheros GeoJSON CSS, estas se representan según la simbología que se encuentra definida en los propios ficheros de datos. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson_css)
 

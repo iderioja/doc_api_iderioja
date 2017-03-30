@@ -1,5 +1,5 @@
 #ids
-</br>
+<br />
 
 Todos los elementos de la Base de Datos Geográfica del Gobierno de La Rioja disponen de un *Identificador* único y persistente, lo que en términos informáticos se conoce abreviadamente como *ID*.
 
@@ -7,15 +7,17 @@ Dado que en algunas ocasiones es necesario mapear exclusivamente un elemento geo
 
 La opción `ids` permite definir la lista de elementos a representar entre los incluidos en una determinada *consulta* IDErioja.
 
-</br>Notas:
+<br />Notas:
 
 (1) Función de uso exclusivo en el ámbito de consulta IDErioja.
 
 (2) Esta opción debe ir precedida siempre por la opción `consulta`.
 
-</br>
+(3) Muestra solamente los elementos con el id indicado, dentro del GeoJSON.
+
+<br />
 ###Código de ejemplo
-</br>
+<br />
 
 El siguiente ejemplo se representan dos elementos, con los identificadores: *1530324* y *1531877*, entre los incluidos en la consulta de IDErioja: "*796249706e544633612b4776356352455470737a45413d3d*", correspondiente al *Mapa de los terrenos acotados de setas de La Rioja*.
 
@@ -55,9 +57,9 @@ El siguiente ejemplo se representan dos elementos, con los identificadores: *153
 </html>
 ```
 
-</br>
+<br />
 ####Salida gráfica
-</br>
+<br />
 
 Visualización de dos elementos incluidos en el mapa de los terrenos acotados de setas de La Rioja. [(visualizarejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_ids)
 

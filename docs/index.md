@@ -1,5 +1,5 @@
 # Introducción
-</br>
+<br />
 
 La *API Javascript IDErioja* es una *Interfaz de Programación de Aplicaciones* orientada a la producción de mapas, para su posterior integración en páginas web o aplicaciones para dispositivos móviles (App).
 
@@ -9,16 +9,16 @@ Aunque está diseñada originalmente para hacer uso de la geo-información conte
 
 La prestación de este servicio se ofrece a título experimental, no suponiendo este por parte del Gobierno de La Rioja, la adquisición de ningún compromiso futuro, ni la asunción de responsabilidad jurídica alguna derivada del uso que se pudiera hacer del mismo.
 
-</br>
+<br />
 ### Ejemplos
-</br>
+<br />
 
 [Mapa de los Árboles Singulares de La Rioja sobre Mapa Base IDErioja](https://iderioja.github.io/doc_api_iderioja/ejemplo_introduccion_01) (fuente: IDErioja).
 
 ![Fondo cartográfico: MapaBase IDErioja](/img/introduccion_01.jpg "Fondo cartográfico: MapaBase IDErioja")
-</br>
+<br />
 
-</br>
+<br />
 
 [Mapa de los Árboles Singulares de La Rioja sobre Ortofoto PNOA](https://iderioja.github.io/doc_api_iderioja/ejemplo_introduccion_02) (fuente: IDErioja).
 

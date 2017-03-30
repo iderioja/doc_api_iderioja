@@ -1,5 +1,5 @@
 # Configuración
-</br>
+<br />
 
 Para configurar un mapa dentro de una página web, es necesario editar su código *html* de la siguiente manera:
 
@@ -12,9 +12,9 @@ Para la representación de la información almacenada en la *Base de Datos Geogr
 
 Si se prefiere utilizar la API para la representación de datos geográficos propios o de terceros en lugar de los almacenados en IDErioja, la API dispone de funciones que permiten añadir al mapa datos de otras procedencias.
 
-</br>
+<br />
 ### Código de ejemplo
-</br>
+<br />
 
 Se presenta a continuación el código del fichero html para la representación de la consulta de IDErioja  *"4d4b792f6469754163366644435862454d7a314e47773d3d"*, correspondiente a las *Estaciones de Medición de La Rioja*.
 
@@ -51,17 +51,17 @@ Se presenta a continuación el código del fichero html para la representación 
 </html>
 ```
 
-</br>
+<br />
 #### Salida gráfica
-</br>
+<br />
 
 [Resultado visual](https://iderioja.github.io/doc_api_iderioja/ejemplo_configuracion_api_iderioja).
 
 ![Ejemplo de configuración](/img/configuracion_salida_grafica.jpg "Ejemplo de configuración")
 
-</br>
+<br />
 ### Opciones
-</br>
+<br />
 
 Opción | Tipo | Valor def. | Descripción
 ------------ | ------------- | ------------ | ------------
@@ -84,9 +84,9 @@ Opción | Tipo | Valor def. | Descripción
 [tag_mapa](/opciones/consulta)|div|"map"|Establece el nombre del <*div*> en el que incrustará el mapa
 [zoom_inicial](/opciones/zoom_inicial)|[0-19]|10|Nivel de *zoom* inicial con el que se representará el mapa
 
-</br>
+<br />
 ### Métodos
-</br>
+<br />
 
 Método|Descripción
 :---|:---
@@ -113,13 +113,14 @@ Método|Descripción
 [unsetFiltroBD](/metodos/metodos/#unsetfiltrobd)|Elimina los filtros creados con `setfiltroBD`.
 [abreModal](/metodos/metodos/#abremodal)|Abre un *iFrame* centrado en la patalla, por encima del mapa.
 
-</br>
+<br />
 ### Componentes
-</br>
+<br />
 
 La API js IDErioja incorpora funcionalidades de las siguientes librerías y plugins de software abierto:
 
  - [Leafletjs v 0.7.7](http://leafletjs.com/): Librería JavaScript *open-source* para la visualización de mapas interactivos.
+ - [Leaflet Control Geocoder](https://github.com/perliedman/leaflet-control-geocoder): Geocodificación directa e inversa de direcciones.
  - [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster): Permite añadir a Leafletjs funcionalidades para el clustering dinámico de símbolos.
  - [leaflet.TileLayer.WMTS](https://github.com/mylen/leaflet.TileLayer.WMTS): Incorpora la posibilidad de añadir capas a partir de servicios WMTS.
  - [Leaflet.NonTiledLayer](https://github.com/ptv-logistics/Leaflet.NonTiledLayer): Soporta peticiones a servicios WMS no tileados.
@@ -131,8 +132,9 @@ La API js IDErioja incorpora funcionalidades de las siguientes librerías y plug
  - [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen): Plugin para mostrar la visualización a pantalla completa (HTML5).
  - [leaflet-sidebar](https://github.com/Turbo87/leaflet-sidebar): Añade la posibilidad de configurar persianas laterales adaptativas (*responsives*).
 
-Otras librerías JavaScript:
+Otras librerías JavaScript integradas:
 
- - [pace](https://github.com/HubSpot/pace)
- - [reqwest](https://github.com/ded/reqwest)
- - [ondomready](https://github.com/tubalmartin/ondomready)
+ - [pace](https://github.com/HubSpot/pace): Línea de carga
+ - [reqwest](https://github.com/ded/reqwest): Ajax
+ - [ondomready](https://github.com/tubalmartin/ondomready): DOM
+ 
