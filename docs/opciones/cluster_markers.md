@@ -8,8 +8,8 @@ El objeto de esta funcionalidad es evitar un efecto visual de *empastado* cuando
 Estableciendo la opción `cluster_markers` al valor **`1`** se activa el clustering de visualización, el valor **`0`** lo desactiva, siendo este último el valor por defecto.
 
 La funcionalidad de clustering que ofrece la *API js IDErioja*, está preconfigurada para un determinado nivel de agrupamiento y escalas de activación. Si desea modificar estos valores, se deberá utilizar el plugin original [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) con objeto de hacer uso de los parámetros de configuración que este ofrece.
-
 <br />
+
 ### Código de ejemplo
 <br />
 Ejemplo de clustering visual aplicado al *Mapa de Estaciones de Medición de La Rioja* (consulta=4d4b792f6469754163366644435862454d7a314e47773d3d):
@@ -46,9 +46,9 @@ Ejemplo de clustering visual aplicado al *Mapa de Estaciones de Medición de La 
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Utilización del clustering para la representación visual simplificada de conjuntos de elementos. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_cluster_markers)

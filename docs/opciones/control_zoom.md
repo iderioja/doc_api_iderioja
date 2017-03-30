@@ -4,9 +4,9 @@
 La opción `control_zoom` configura la visualización en la esquina superior izquierda de la ventana, de los botones que se utilizan para aproximar o alejar el mapa.
 
 El valor *`1`* activa la visualización del control "+ -" del zoom, siendo esta la opción por defecto. El valor *`0`* oculta la visualización.
-
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 El siguiente ejemplo muestra el código necesario para eliminar del mapa el control del zoom:
@@ -42,9 +42,9 @@ El siguiente ejemplo muestra el código necesario para eliminar del mapa el cont
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Ejemplo de mapa sin control de zoom. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_control_zoom)

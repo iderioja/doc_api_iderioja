@@ -8,8 +8,6 @@ En el nivel *0* el mapa mostrará todo el mundo, correspondiendo el nivel *19* a
 </br>
 
 ![Tiles](/img/opciones_zoom_inicial_tiles.jpg "Tiles")
-
-<br />
 <br />
 
 De forma orientativa se indica la resolución espacial en metros pixel *(1) para cada nivel de zoom (en el ecuador).
@@ -42,10 +40,9 @@ Zoom|Teselas|Número de teselas|Tamaño de la tesela en m (256x256 px)|Resoluci�
 (1)  Es necesario tener en cuenta, que por tratarse de una proyección Spherical Mercator ([EPSG:3857](https://epsg.io/3857)), la resolución se irá modificando conforme la vista se aleje del ecuador, atendiendo la resolución de un pixel a la siguiente fórmula:
 
 [Resolución de un pixel]=[Circunferencia de la Tierra]*cos(latitud)/2^(zoom+8)
-
-
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 En el siguiente ejemplo se establece un valor inicial de zoom = *7*.
@@ -81,9 +78,9 @@ En el siguiente ejemplo se establece un valor inicial de zoom = *7*.
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Ejemplo de uso de la opción *zoom_inicial=7*. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_zoom_inicial)

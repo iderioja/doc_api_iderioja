@@ -1,4 +1,4 @@
-#capa_kml
+# capa_kml
 <br />
 
 La opción `capa_kml` permite definir un *array* de archivos con la información geográfica a visualizar, expresados en formato *[KML](https://developers.google.com/kml/documentation/?hl=es)* (Keyhole Markup Language)
@@ -8,9 +8,9 @@ La opción `capa_kml` permite definir un *array* de archivos con la información
 (1) Esta funcionalidad se apoya en los servicios que ofrece el plugin *[leaflet_omnivore](https://github.com/mapbox/leaflet-omnivore)* desarrollado por *[MapBox](https://www.mapbox.com/)*, para la librería JavaScript de mapas *[Leaflet](http://leafletjs.com/)*. Para ampliar la información sobre su funcionamiento y opciones se recomienda consultar la [documentación original](https://github.com/mapbox/leaflet-omnivore/blob/master/README.md).
 
 (2) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
-
 <br />
-###Propiedades
+
+### Propiedades
 <br />
 
 En esta opción además de las propiedades `nombre` y `url`, es posible configurar la representación de los elementos geográficos mediante un conjunto de parámetros de estilo.
@@ -42,9 +42,9 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowRetinaUrl`||texto|(nulo)|URL de la imagen "retina" utilizada para el sombreado del icono. Si no se especifica, no se utilizará sombreado.
 ||`shadowSize`|[x, y]|(nulo)|Tamaño de la imagen de sombreado (expresado en píxeles).
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
-
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 El siguiente ejemplo muestra la configuración para la inclusión de dos ficheros geográficos kml:
@@ -100,9 +100,9 @@ El siguiente ejemplo muestra la configuración para la inclusión de dos fichero
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Detalle de un mapa en el que se han incorporado dos archivos kml almacenados en GitHub. Uno de puntos, denominado [montañas del mundo](https://github.com/tucnak/marble/blob/master/data/placemarks/elevplacemarks.kml), al cual se le ha aplicado una simbolización por medio de un icono, y otro que recoge el trazado de las [redes de telecomunicaciones de Argelia](https://github.com/stevesong/afterfibre-kml/blob/master/Algeria/Algerie_Telecom/Algerie_Telecom.kml), en el que también se han configurado algunas propiedades gráficas. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_kml)

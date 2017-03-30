@@ -12,8 +12,8 @@ El parámetro admite los siguientes valores:
 <br />Notas:
 
 La opción `2` está especialmente recomendada para dispositivos con patallas de pequeño tamaño y en los casos en que existe un gran número de atributos o estos tienen una gran extensión.
-
 <br />
+
 ### Código de ejemplo
 <br />
 
@@ -56,8 +56,8 @@ El siguiente ejemplo muestra la configuración de la función *popup* actuando s
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
+
 #### Salida gráfica
 <br />
 

@@ -18,9 +18,9 @@ El valor **`1`**, **`2`**, **`4`** o **`5`** activa la visualización del *mapa 
 `2`|IDErioja - Ortofografía aérea
 `4`|IDErioja - Relieve
 `5`|OpenStreetMap Standard
-
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 El siguiente ejemplo ofrece una visualización en la que se incluye un pequeño mapa guía:
@@ -56,9 +56,9 @@ El siguiente ejemplo ofrece una visualización en la que se incluye un pequeño 
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Representación de mapa con inclusión de la herramienta mapa guía en su esquina inferior-derecha. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_minimapa)

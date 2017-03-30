@@ -1,4 +1,4 @@
-#consulta
+# consulta
 <br />
 
 Como se indica en el apartado [Configuración](configuracion), IDErioja utiliza para la representación de la información almacenada en su base de datos geográfica, unos ficheros de configuración denominados *"Consultas"* que contienen las referencias, los atributos y la simbología de los datos a representar.
@@ -16,9 +16,9 @@ El valor de la consulta utilizado por defecto es `null`.
 <br />Notas:
 
 (1) Función de uso exclusivo en el ámbito de consulta IDErioja.
-
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 El siguiente ejemplo utiliza la consulta de IDErioja: "*796249706e544633612b4776356352455470737a45413d3d*", correspondiente al *Mapa de los terrenos acotados de setas de La Rioja*.
@@ -55,9 +55,9 @@ El siguiente ejemplo utiliza la consulta de IDErioja: "*796249706e544633612b4776
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
-####Salida gráfica
+
+#### Salida gráfica
 <br />
 
 Mapa de los terrenos acotados de setas de La Rioja que se corresponde con la consulta 796249706e544633612b4776356352455470737a45413d3d. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_consulta)

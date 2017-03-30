@@ -10,9 +10,9 @@ Se define solamente una sola vez, aplicándose a todas las capas geográficas de
 <br />Notas:
 
 En caso de no definir alguno de los parámetrós posibles, se utilizan por defecto los valores que se indican.
-
 <br />
-###Propiedades
+
+### Propiedades
 <br />
 
 Propiedad|Parámetro|Tipo|V.defecto|Descripción
@@ -23,8 +23,8 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`opacity`|número|0.5|Opacidad del trazo.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).
 ||`fillColor`|texto|(*color*)|Color de relleno expresado en formato hexadecimal RGB #rrggbb.</br>Se puede expresar también mediante su nombre ([lista de colores](https://www.w3.org/TR/SVG/types.html#ColorKeywords)).</br>El valor por defecto es el correspondiente al parámetro *color*.
 ||`fillOpacity` |número|0.2|Opacidad del relleno.</br>Rango de valores: de 0.0 (totalmente transparente) hasta 1.0 (totalmente opaco).
-
 <br />
+
 ### Código de ejemplo
 <br />
 
@@ -74,8 +74,8 @@ El siguiente ejemplo muestra la configuración de la función *hover* actuando s
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
-
 <br />
+
 #### Salida gráfica
 <br />
 
