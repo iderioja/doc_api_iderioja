@@ -11,6 +11,7 @@ Para configurar un mapa dentro de una página web, es necesario editar su códig
 Para la representación de la información almacenada en la *Base de Datos Geográfica del Gobierno de La Rioja*, IDErioja dispone de unos ficheros de configuración predeterminados denominados *"Consultas"*, en los que se almacenan las referencias de los datos que se quieren representar, su simbología y atributos, así como su orden de presentación (opción: [consulta](opciones/consulta)).
 
 Si se prefiere utilizar la API para la representación de datos geográficos propios o de terceros en lugar de los almacenados en IDErioja, la API dispone de funciones que permiten añadir al mapa datos de otras procedencias.
+
 <br />
 
 ### Código de ejemplo

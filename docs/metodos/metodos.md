@@ -1,9 +1,10 @@
-#Métodos
+# Métodos
 <br />
 
 La llamada a los *métodos* o *funciones* se debe realizar después de que el mapa esté cargado en el DOM, por lo que se utilizará la función *"iderioja_ready"* o funciones similares de jQuery (DOMReady).
 
 También pueden ser invocadas desde un evento *'click'* de un botón.
+
 <br />
 
 ### abreModal
@@ -12,6 +13,7 @@ También pueden ser invocadas desde un evento *'click'* de un botón.
 `abreModal(<url>,<ancho>,<alto>)`
 
 <br />Abre un *iFrame* centrado en la patalla, por encima del mapa.
+
 <br />
 
 ### captura_zoom
@@ -26,6 +28,7 @@ iderioja_ready(function () {
   mapa_iderioja.captura_zoom("nivel_zoom");
 });
 ```
+
 <br />
 
 ### carga_capa_geojson
@@ -41,6 +44,7 @@ mapa_iderioja.carga_capa_geojson(
   'https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson'
 );
 ```
+
 <br />
 
 ### carga_capa_gpx
@@ -62,6 +66,7 @@ mapa_iderioja.carga_capa_kml(
   }
 );
 ```
+
 <br />
 
 ### carga_capa_kml
@@ -77,6 +82,7 @@ mapa_iderioja.carga_capa_kml(
   'https://raw.githubusercontent.com/CafeGIS/gvSIG2_0/81376f304645d040ee34e98d57b4f745e0293d05/libGPE-KML/testdata/SpainMorocco.kml'
 );
 ```
+
 <br />
 
 ### carga_capa_notiled_wms
@@ -103,6 +109,7 @@ mapa_iderioja.carga_capa_notiled_wms(
   false
 );
 ```
+
 <br />
 
 ### carga_fondo
@@ -123,6 +130,7 @@ mapa_iderioja.carga_fondo(
   }
 );
 ```
+
 <br />
 
 ### carga_fondo_wmts
@@ -131,6 +139,7 @@ mapa_iderioja.carga_fondo(
 `carga_fondo_wmts`
 
 <br />Carga un fondo en formato WMTS.
+
 <br />
 
 ### crea_boton
@@ -153,6 +162,7 @@ iderioja_ready(function () {
   mapa_iderioja.crea_boton('<span id="nivel_zoom"></span>', "alert", ["hola!!!"]);
 });
 ```
+
 <br />
 
 ### eliminaCapasBaseMapa
@@ -161,6 +171,7 @@ iderioja_ready(function () {
 `eliminaCapasBaseMapa`
 
 <br />Suprime las capas del tipo *BaseLayer*.
+
 <br />
 
 ### eliminaCapasMapa
@@ -169,6 +180,7 @@ iderioja_ready(function () {
 `eliminaCapasMapa`
 
 <br />Suprime todas las capas del mapa.
+
 <br />
 
 ### ir_a_coordenada
@@ -177,6 +189,7 @@ iderioja_ready(function () {
 `ir_a_coordenada (<lon>, <lat>, <zoom>)`
 
 <br />Sitúa el mapa en la coordenada y el nivel de zoom especificados.
+
 <br />
 
 ### ir_a_elemento
@@ -187,6 +200,7 @@ iderioja_ready(function () {
 <br />Sitúa el mapa en el ID del elemento indicado con el nivel de zoom seleccionado.
 
 Se abren las propiedades del elemento.
+
 <br />
 
 ### ir_a_todo
@@ -195,6 +209,7 @@ Se abren las propiedades del elemento.
 `ir_a_todo ()`
 
 <br />Centra el mapa para que todos los elementos aparezcan, ajustando también el nivel de zoom.
+
 <br />
 
 ### setFiltroBD
@@ -210,6 +225,7 @@ setFiltroBD([{
 <br />Muestra en el mapa solamente los elementos que coincidan con los campos que queremos filtrar.
 
 Los datos no tienen por qué existir en el GeoJSON, deben existir en la Base de Datos IDErioja.
+
 <br />
 
 ### setFiltroIDS
@@ -220,6 +236,7 @@ Los datos no tienen por qué existir en el GeoJSON, deben existir en la Base de 
 <br />Muestra en el mapa solamente los elementos que coincidan con los identificadores (IDs) seleccionados.
 
 Los datos tienen que existir en el GeoJSON cargado en el mapa.
+
 <br />
 
 ### setFiltroProp
@@ -236,6 +253,7 @@ setFiltroProp({
 <br />Muestra en el mapa solamente los elementos que coincidan con el valor del atributo seleccionado.
 
 Los datos tienen que existir en el GeoJSON cargado en el mapa.
+
 <br />
 
 ### unsetFiltroBD
@@ -244,6 +262,7 @@ Los datos tienen que existir en el GeoJSON cargado en el mapa.
 `unsetFiltroBD()`
 
 <br />Elimina los filtros creados con `setfiltroBD`.
+
 <br />
 
 ### unsetFiltroIDs
@@ -252,6 +271,7 @@ Los datos tienen que existir en el GeoJSON cargado en el mapa.
 `unsetFiltroIDs()`
 
 <br />Elimina los filtros creados con `setfiltroIDs`.
+
 <br />
 
 ### unsetFiltroProp
@@ -260,6 +280,7 @@ Los datos tienen que existir en el GeoJSON cargado en el mapa.
 `unsetFiltroProp()`
 
 <br />Elimina los filtros creados con `setfiltroProp`.
+
 <br />
 
 ### zoom_mas
@@ -268,6 +289,7 @@ Los datos tienen que existir en el GeoJSON cargado en el mapa.
 `zoom_mas()`
 
 <br />Acerca el mapa.
+
 <br />
 
 ### zoom_menos
@@ -276,6 +298,7 @@ Los datos tienen que existir en el GeoJSON cargado en el mapa.
 `zoom_menos()`
 
 <br />Aleja el mapa.
+
 <br />
 
 ## Ejemplo

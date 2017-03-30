@@ -10,6 +10,7 @@ Aunque está diseñada originalmente para hacer uso de la geo-información conte
 La prestación de este servicio se ofrece a título experimental, no suponiendo este por parte del Gobierno de La Rioja, la adquisición de ningún compromiso futuro, ni la asunción de responsabilidad jurídica alguna derivada del uso que se pudiera hacer del mismo.
 
 <br />
+
 ### Ejemplos
 <br />
 
