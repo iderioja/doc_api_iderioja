@@ -3,6 +3,7 @@ pages:
 - Home: index.md
 - Configuración: configuracion.md
 - Opciones:
+    - ajuste_elementos: opciones/ajuste_elementos.md
     - capa_geojson: opciones/capa_geojson.md
     - capa_gpx: opciones/capa_gpx.md
     - capa_kml: opciones/capa_kml.md
