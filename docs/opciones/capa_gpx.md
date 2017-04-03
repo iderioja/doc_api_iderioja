@@ -10,6 +10,7 @@ El formato de intercambio GPX es un esquema XML ligero pensado para transferir d
 (1) Esta funcionalidad se apoya en los servicios que ofrece el plugin *[leaflet_omnivore](https://github.com/mapbox/leaflet-omnivore)* desarrollado por *[MapBox](https://www.mapbox.com/)*, para la librería JavaScript de mapas *[Leaflet](http://leafletjs.com/)*. Para ampliar la información sobre su funcionamiento y opciones se recomienda consultar la [documentación original](https://github.com/mapbox/leaflet-omnivore/blob/master/README.md).
 
 (2) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
+
 <br />
 
 ### Propiedades
@@ -46,7 +47,8 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
 
 <br />
-###Código de ejemplo
+
+### Código de ejemplo
 <br />
 
 El siguiente ejemplo muestra la configuración para la visualización de un fichero gpx que contiene el trazado de un recorrido (track) registrado con GPS:
@@ -92,6 +94,7 @@ El siguiente ejemplo muestra la configuración para la visualización de un fich
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

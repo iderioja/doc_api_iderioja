@@ -40,6 +40,7 @@ Zoom|Teselas|Número de teselas|Tamaño de la tesela en m (256x256 px)|Resoluci�
 (1)  Es necesario tener en cuenta, que por tratarse de una proyección Spherical Mercator ([EPSG:3857](https://epsg.io/3857)), la resolución se irá modificando conforme la vista se aleje del ecuador, atendiendo la resolución de un pixel a la siguiente fórmula:
 
 [Resolución de un pixel]=[Circunferencia de la Tierra]*cos(latitud)/2^(zoom+8)
+
 <br />
 
 ### Código de ejemplo
@@ -78,6 +79,7 @@ En el siguiente ejemplo se establece un valor inicial de zoom = *7*.
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

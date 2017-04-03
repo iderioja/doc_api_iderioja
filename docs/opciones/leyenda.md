@@ -14,6 +14,7 @@ Una vez la leyenda está a la vista, el usuario puede mostrar/ocultar el conjunt
 (1) Función de uso exclusivo en el ámbito de consulta IDErioja. No incorpora información proveniente de capas externas o locales, aunque estas últimas incluyan simbología.
 
 (2) Esta opción debe ir precedida siempre por la opción `consulta`.
+
 <br />
 
 ### Código de ejemplo
@@ -53,6 +54,7 @@ El siguiente ejemplo ofrece un botón de leyenda que permite consultar las capas
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

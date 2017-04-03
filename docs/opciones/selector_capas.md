@@ -12,6 +12,7 @@ Presenta los fondos cartográficos que se ofertan por defecto y las capas inclui
 <br />Notas:
 
 (1) El valor `2` (miniselector), invalida cualquier otro fondo cartográfico elegido mediante la opción [fondo_base](opciones/fondo_base). Aunque el fondo elegido mediante esta opción pueda aparecer en una primera instancia, desaparecerá al pulsar cualquiera de los botones del miniselector, para no volver a mostrarse.
+
 <br />
 
 ### Código de ejemplo
@@ -50,6 +51,7 @@ El ejemplo que se muestra configura el selector de capas con la opción "*minise
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

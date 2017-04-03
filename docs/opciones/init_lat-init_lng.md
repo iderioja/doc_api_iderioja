@@ -44,6 +44,7 @@ El siguiente ejemplo centra la presentación inicial del mapa en la ciudad de Ma
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

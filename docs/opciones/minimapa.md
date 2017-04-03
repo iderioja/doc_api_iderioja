@@ -18,6 +18,7 @@ El valor **`1`**, **`2`**, **`4`** o **`5`** activa la visualización del *mapa 
 `2`|IDErioja - Ortofografía aérea
 `4`|IDErioja - Relieve
 `5`|OpenStreetMap Standard
+
 <br />
 
 ### Código de ejemplo
@@ -56,6 +57,7 @@ El siguiente ejemplo ofrece una visualización en la que se incluye un pequeño 
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

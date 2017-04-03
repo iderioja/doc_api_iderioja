@@ -10,6 +10,7 @@ Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.opens
 <br />Notas:
 
 (1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
+
 <br />
 
 ### Propiedades
@@ -44,6 +45,7 @@ Propiedad|Parámetro|Tipo|V.defecto|Descripción
 ||`shadowRetinaUrl`||texto|(nulo)|URL de la imagen "retina" utilizada para el sombreado del icono. Si no se especifica, no se utilizará sombreado.
 ||`shadowSize`|[x, y]|(nulo)|Tamaño de la imagen de sombreado (expresado en píxeles).
 ||`shadowAnchor`|[x, y]|(nulo)|Coordenadas del "anclaje" del sombreado (relativas a su esquina superior-izquierda).</br>Si no se especifica se utilizará el valor *iconAnchor*.
+
 <br />
 
 ### Código de ejemplo 1
@@ -91,6 +93,7 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica
@@ -99,6 +102,7 @@ El siguiente ejemplo muestra la configuración para una capa GeoJSON que contien
 En este caso, la visualización de los polígonos de los [departamentos de Francia](https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson) se ha personalizado definiendo su color, grosor de línea y transparencia. [(visualizar ejemplo)](https://iderioja.github.io/doc_api_iderioja/ejemplo_opcion_capa_geojson)
 
 ![Ejemplo opción capa_geojson](/img/opciones_capa_geojson_salida_grafica.jpg "Ejemplo opción capa_geojson")
+
 <br />
 
 ### Código de ejemplo 2
@@ -146,6 +150,7 @@ El siguiente ejemplo muestra la configuración para la representación de dos ca
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

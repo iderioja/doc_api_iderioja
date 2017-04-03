@@ -10,6 +10,7 @@ Este botón, que funciona como un interruptor, se encuentra inicialmente deselec
 Notas:
 
 (1) - Para el correcto funcionamiento de esta función, es requisito imprescindible que previamente se encuentre activada en el dispositivo la opción de *"localización"*.
+
 <br />
 
 ### Código de ejemplo
@@ -48,6 +49,7 @@ El siguiente ejemplo muestra la configuración para la activación del botón de
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

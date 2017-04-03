@@ -4,6 +4,7 @@
 La opción `tag_mapa` establece el nombre del `<div>` de la página *html* en el que se incrustará el mapa.
 
 Por defecto el *id* utilizado es `"map"`.
+
 <br />
 
 ### Código de ejemplo
@@ -42,6 +43,7 @@ El siguiente ejemplo dirige la salida a un `<div>` denominado `"mi_mapa"`.
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

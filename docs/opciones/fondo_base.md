@@ -31,6 +31,7 @@ Una de las ventajas que ofrece utilizar directamente los fondos cartográficos o
 (1) Aunque para la configuración de la variable `fondo_base` se tratan de la misma forma los fondos cartográficos TS/TMS y WMTS, los *métodos* que emplea internamente la API para su configuración y que el usuario podría utilizar, son muy diferentes, por lo que este aspecto deberá ser tenido en cuenta en el caso de abordar una configuración personalizada.
 
 (2) El uso de los fondos cartográficos que se ofertan, están sujetos a las condiciones de uso que fija cada proveedor, por lo que será obligación y responsabilidad del usuario comprobar que la utilización que hace de los mismos se atiene a las condiciones establecidas por este.
+
 <br />
 
 ### Código de ejemplo
@@ -70,7 +71,8 @@ El siguiente ejemplo inicializa el mapa con el fondo cartográfico de la Ortofot
 </html>
 ```
 <br />
-En este caso el valor de la variable `"fondo_base": "pnoa-ortofoto"` se podría sustituir por `"fondo_base": 101`
+En este caso el valor de la variable `"fondo_base": "pnoa-ortofoto"` se podría sustituir por `"fondo_base": 101`.
+
 <br />
 
 #### Salida gráfica

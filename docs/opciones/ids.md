@@ -14,6 +14,7 @@ La opción `ids` permite definir la lista de elementos a representar entre los i
 (2) Esta opción debe ir precedida siempre por la opción `consulta`.
 
 (3) Muestra solamente los elementos con el id indicado, dentro del GeoJSON.
+
 <br />
 
 ### Código de ejemplo
@@ -56,6 +57,7 @@ El siguiente ejemplo se representan dos elementos, con los identificadores: *153
   <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
 </html>
 ```
+
 <br />
 
 #### Salida gráfica

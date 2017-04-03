@@ -7,6 +7,7 @@ pages:
     - capa_gpx: opciones/capa_gpx.md
     - capa_kml: opciones/capa_kml.md
     - cluster_markers: opciones/cluster_markers.md
+    - colabora: opciones/colabora.md
     - consulta: opciones/consulta.md
     - control_zoom: opciones/control_zoom.md
     - escala: opciones/escala.md
