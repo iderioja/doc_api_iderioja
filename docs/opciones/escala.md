@@ -3,7 +3,10 @@
 
 La opción `escala` permite mostrar en la esquina inferior izquierda del mapa, una barra con una *escala gráfica* de acuerdo con su nivel de detalle.
 
-El valor *`1`* activa la visualización de la escala gráfica. El valor *`0`* oculta la visualización, siendo este último el valor por defecto.
+Esta opción puede tomar los siguientes valores:
+
+- **`0`**- Oculta la visualización de la escala gráfica (valor por defecto).
+- **`1`**- Activa la visualización de la escala gráfica.
 
 <br />
 

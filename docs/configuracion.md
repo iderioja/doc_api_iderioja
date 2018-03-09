@@ -65,11 +65,13 @@ Se presenta a continuación el código del fichero html para la representación 
 <br />
 
 Opción | Tipo | Valor def. | Descripción
------------- | ------------- | ------------ | ------------
+:--- | :--- | :---: | :---
+[ajuste_elementos](opciones/ajuste_elementos)|[0,1]|1|Permite ajustar la extensión del mapa en base a los elementos del GeoJSON
 [capa_geojson](opciones/capa_geojson)|array|(no)|Array de archivos *GeoJSON* con capas geográficas a visualizar.
 [capa_gpx](opciones/capa_gpx)|array|(no)|Array de archivos *GPX* (GPS) con puntos, recorridos y rutas a visualizar.
 [capa_kml](opciones/capa_kml)|array|(no)|Array de archivos *KML* con capas geográficas a visualizar.
 [cluster_markers](opciones/cluster_markers)|[0,1]|0|Simbolización agrupada y dinámica de elementos puntuales y símbolos
+[colabora](/opciones/colabora)|[0,1]|0|Añade un control que permite capturar la coordenada del mapa
 [consulta](/opciones/consulta)|texto|(no)|Especifica la *consulta de IDErioja* que se quiere utilizar
 [control_zoom](opciones/control_zoom)|[0,1]|1|Establece la visualización o no del control de zoom.
 [escala](/opciones/escala)|[0,1]|0|Muestra una barra con la *escala gráfica* del mapa
@@ -81,8 +83,9 @@ Opción | Tipo | Valor def. | Descripción
 [leyenda](/opciones/leyenda)|[0,1]|0|Muestra un *botón leyenda* de las capas utilizadas en una *consulta* IDErioja
 [localizacion](opciones/localizacion)|[0,1]|0|Ofrece un botón que muestra la localización geográfica del dispositivo
 [minimapa](opciones/minimapa)|[0,1]|0|Muestra un *mapa guía* en la parte inferior derecha del mapa principal
+[panel_info](opciones/panel_info)|[0,1]|0|Habilita la utilización del panel lateral de información
 [popup](opciones/popup)|[0,1,2]|1|Define cómo se visualizan los atributos de un elemento seleccionado
-[selector_capas](/opciones/selector_capas)|[0,1,2]|0|Configura la oferta y apariencia del *selector de capas*
+[selector_capas](/opciones/selector_capas)|[0,1,2,3]|0|Configura la oferta y apariencia del *selector de capas*
 [tag_mapa](/opciones/consulta)|div|"map"|Establece el nombre del <*div*> en el que incrustará el mapa
 [zoom_inicial](/opciones/zoom_inicial)|[0-19]|10|Nivel de *zoom* inicial con el que se representará el mapa
 <br />

@@ -19,6 +19,7 @@ pages:
     - leyenda: opciones/leyenda.md
     - localizacion: opciones/localizacion.md
     - minimapa: opciones/minimapa.md
+    - panel_info: opciones/panel_info.md
     - popup: opciones/popup.md
     - selector_capas: opciones/selector_capas.md
     - tag_mapa: opciones/tag_mapa.md

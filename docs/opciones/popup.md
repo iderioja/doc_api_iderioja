@@ -9,9 +9,14 @@ El parámetro admite los siguientes valores:
 - **`1`**- Los atributos del elemento se visualizan mediante un bocadillo sobre la zona de mapa (valor por defecto).  
 - **`2`**- Se muestran los atributos del elemento seleccionado mediante el despliegue de un panel lateral de información.
 
-<br />Notas:
+<br />*Notas*:
 
-La opción `2` está especialmente recomendada para dispositivos con patallas de pequeño tamaño y en los casos en que existe un gran número de atributos o estos tienen una gran extensión.
+*(1)* La opción **`2`** está especialmente recomendada para dispositivos con pantallas de pequeño tamaño y en los casos en que existe un gran número de atributos o estos tienen una gran extensión.  
+Esta opción establece automáticamente el valor de la opción [`panel_info`](opciones/panel_info) = `1`
+
+*(2)* Para mejorar la visualización del panel lateral de información en los dispositivos móviles, se aconseja configurar el parámetro `viewport` en el apartado cabecera (head) del fichero html de la siguiente manera:
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
 
 <br />
 

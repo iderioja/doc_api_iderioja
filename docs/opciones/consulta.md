@@ -13,9 +13,9 @@ La información asociada a la consulta, incluye la capa o conjunto de capas geog
 
 El valor de la consulta utilizado por defecto es `null`.
 
-<br />Notas:
+<br />*Notas*:
 
-(1) Función de uso exclusivo en el ámbito de consulta IDErioja.
+*(1)* Función de uso exclusivo en el ámbito de consulta IDErioja.
 
 <br />
 

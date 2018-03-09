@@ -7,9 +7,9 @@ La función se activa con el valor **`1`**. Esta opción presenta en el visualiz
 
 Este botón, que funciona como un interruptor, se encuentra inicialmente deseleccionado. Pulsando sobre él se geolocaliza en el mapa la ubicación del dispositivo mediante un punto azul y un círculo a su alrededor que informa sobre la precisión. Cuanto menor es el círculo alrededor del punto, mayor es la precisión con la que se ha calculado la posición.
 
-Notas:
+<br />*Notas*:
 
-(1) - Para el correcto funcionamiento de esta función, es requisito imprescindible que previamente se encuentre activada en el dispositivo la opción de *"localización"*.
+*(1)* Para el correcto funcionamiento de esta función, es requisito imprescindible que previamente se encuentre activada en el dispositivo la función de *localización*.
 
 <br />
 

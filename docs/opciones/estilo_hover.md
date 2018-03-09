@@ -7,9 +7,9 @@ La opción `estilo_hover` permite definir los parámetros de simbolización nece
 
 Se define solamente una sola vez, aplicándose a todas las capas geográficas del mapa.
 
-<br />Notas:
+<br />*Notas*:
 
-En caso de no definir alguno de los parámetrós posibles, se utilizan por defecto los valores que se indican.
+*(1)* En caso de no definir alguno de los parámetros posibles, se utilizan por defecto los valores que se indican en la tabla.
 
 <br />
 

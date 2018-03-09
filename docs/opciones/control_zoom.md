@@ -3,7 +3,10 @@
 
 La opción `control_zoom` configura la visualización en la esquina superior izquierda de la ventana, de los botones que se utilizan para aproximar o alejar el mapa.
 
-El valor *`1`* activa la visualización del control "+ -" del zoom, siendo esta la opción por defecto. El valor *`0`* oculta la visualización.
+El parámetro admite los siguientes valores:
+
+- **`0`**- Oculta la visualización.
+- **`1`**- Activa la visualización del control `+ -` del zoom (valor por defecto).  
 
 <br />
 

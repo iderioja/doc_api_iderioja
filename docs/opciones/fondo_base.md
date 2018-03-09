@@ -4,7 +4,7 @@
 La opción `fondo_base` especifica el fondo cartográfico que se utilizará en el mapa, seleccionando una de entre las siguientes opciones disponibles:
 
 |Nombre|fondo_base|Valor|Tipo|url
-------|------|:----:|:----:|-----
+:---|:---|:---:|:---:|:---
 IDErioja - Mapa base|`"iderioja-base"`|`0`|TS|https://ts0.larioja.org/mb.php?z={z}&x={x}&y={y}
 IDErioja - Mapa base|`"iderioja-base"`|`1`|TS|https://ts0.larioja.org/mb.php?z={z}&x={x}&y={y}
 IDErioja - Ortofografía aérea|`"iderioja-ortofoto"`|`2`||TS|https://ts0.larioja.org/mb_raster.php?z={z}&x={x}&y={y}
@@ -22,15 +22,15 @@ La *API js IDErioja* puede representar fondos cartográficos servidos mediante t
 
 También se soportan fondos cartográficos provenientes de servicios [*WMTS*](http://www.opengeospatial.org/standards/wmts) *Web Map Tile Service*.
 
-Si no se especifica nada, el valor que se utilizará por defecto es:  el valor `0` que corresponde a `"iderioja-base"`.
+Si no se especifica nada, el valor que se utilizará por defecto es:  el valor **`0`** que corresponde a `"iderioja-base"`.
 
 Una de las ventajas que ofrece utilizar directamente los fondos cartográficos ofertados, es la relativa a la obligación de expresar el *"reconocimiento"* del proveedor del servicio (attribution), ya que dicha información se refleja de forma automática en el mapa.
 
 <br />*Notas*:
 
-(1) Aunque para la configuración de la variable `fondo_base` se tratan de la misma forma los fondos cartográficos TS/TMS y WMTS, los *métodos* que emplea internamente la API para su configuración y que el usuario podría utilizar, son muy diferentes, por lo que este aspecto deberá ser tenido en cuenta en el caso de abordar una configuración personalizada.
+*(1)* Aunque para la configuración de la variable `fondo_base` se tratan de la misma forma los fondos cartográficos TS/TMS y WMTS, los *métodos* que emplea internamente la API para su configuración y que el usuario podría utilizar, son muy diferentes, por lo que este aspecto deberá ser tenido en cuenta en el caso de abordar una configuración personalizada.
 
-(2) El uso de los fondos cartográficos que se ofertan, están sujetos a las condiciones de uso que fija cada proveedor, por lo que será obligación y responsabilidad del usuario comprobar que la utilización que hace de los mismos se atiene a las condiciones establecidas por este.
+*(2)* El uso de los fondos cartográficos que se ofertan, están sujetos a las condiciones de uso que fija cada proveedor, por lo que será obligación y responsabilidad del usuario comprobar que la utilización que hace de los mismos se atiene a las condiciones establecidas por este.
 
 <br />
 

@@ -55,7 +55,7 @@ mapa_iderioja.carga_capa_geojson(
 <br />Carga una capa en formato GPX.
 
 ```
-mapa_iderioja.carga_capa_kml(
+mapa_iderioja.carga_capa_gpx(
   'Punto GPS',
   'https://raw.githubusercontent.com/doronkatz/GFXLocations/78c430a92124bd9b52f4fc5a60f0185849aea1fd/darwin.gpx',
   null,

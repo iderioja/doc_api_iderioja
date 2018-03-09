@@ -7,9 +7,9 @@ Los datos geográficos deberán estar expresados en formato [GeoJSON](http://geo
 
 Si el fichero GeoJSON es conforme con el formato [GeoJSON CSS](http://wiki.openstreetmap.org/wiki/Geojson_CSS) definido por [OpenStreetMap](https://www.openstreetmap.org), se utilizará por defecto la simbolización que venga definida en el fichero de datos para cada uno de sus elementos. En el caso de que se especifiquen propiedades de *estilo* y/o *icono*, estas modificarán a las contenidas en el fichero GeoJSON CSS.
 
-<br />Notas:
+<br />*Notas*:
 
-(1) Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
+*(1)* Para datos que pudieran mapearse desde una carpeta *'Public'* de *Dropbox*, se informa [según lo anunciado por esta compañía](https://www.dropbox.com/es/help/16), que a partir del 15 de marzo de 2017 la carpeta *Public* se ha convertido automáticamente en una carpeta estándar.
 
 <br />
 

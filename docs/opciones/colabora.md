@@ -5,14 +5,14 @@ La opción `colabora` añade un control que permite una vez activado por el usua
 
 Esta opción puede tomar dos valores posibles:
 
-  - 0 = No muestra el control (valor por defecto)
-  - 1 = Visualiza el control.
+- **`0`**- No muestra el control (valor por defecto)
+- **`1`**- Visualiza el control.
 
-<br />Notas:
+<br />*Notas*:
 
-(1) El botón no tiene ningún estilo determinado para facilitar así su personalización en las aplicaciones.
+*(1)* El botón no tiene ningún estilo determinado para facilitar así su personalización en las aplicaciones.
 
-(2) En el ámbito de *IDErioja* se utiliza este control para ofrecer a los usuarios un formulario de recogida y envío de sugerencias.
+*(2)* En el ámbito de *IDErioja* se utiliza este control para ofrecer a los usuarios un formulario de recogida y envío de sugerencias.
 
 <br />
 

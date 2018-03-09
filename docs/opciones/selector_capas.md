@@ -9,9 +9,9 @@ Presenta los fondos cartográficos que se ofertan por defecto y las capas inclui
 - **`2`**- Muestra un *"miniselector"* con dos opciones: **Mapa** (Mapa Base IDErioja) y **Satélite** (Ortofoto IDErioja).  *(1)
 - **`3`**- El selector de capas muestra la capa definida en la opción `fondo_base`
 
-<br />Notas:
+<br />*Notas*:
 
-(1) El valor `2` (miniselector), invalida cualquier otro fondo cartográfico elegido mediante la opción [fondo_base](opciones/fondo_base). Aunque el fondo elegido mediante esta opción pueda aparecer en una primera instancia, desaparecerá al pulsar cualquiera de los botones del miniselector, para no volver a mostrarse.
+*(1)* El valor **`2`** (miniselector), invalida cualquier otro fondo cartográfico elegido mediante la opción [`fondo_base`](opciones/fondo_base). Aunque el fondo elegido mediante esta opción pueda aparecer en una primera instancia, desaparecerá al pulsar cualquiera de los botones del miniselector, para no volver a mostrarse.
 
 <br />
 

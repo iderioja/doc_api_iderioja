@@ -3,8 +3,8 @@
 
 Esta opción `ajuste_elementos`, permite ajustar la extensión del mapa en base a los elementos del GeoJSON que se haya cargado:
 
-  - 0 = sin ajuste
-  - 1 = con ajuste a los elementos (opción por defecto)
+- **`0`**- Sin ajuste
+- **`1`**- Con ajuste a los elementos (opción por defecto)
 
 <br />
 

@@ -7,13 +7,13 @@ Dado que en algunas ocasiones es necesario mapear exclusivamente un elemento geo
 
 La opción `ids` permite definir la lista de elementos a representar entre los incluidos en una determinada *consulta* IDErioja.
 
-<br />Notas:
+<br />*Notas*:
 
-(1) Función de uso exclusivo en el ámbito de consulta IDErioja.
+*(1)* Función de uso exclusivo en el ámbito de consulta IDErioja.
 
-(2) Esta opción debe ir precedida siempre por la opción `consulta`.
+*(2)* Esta opción debe ir precedida siempre por la opción `consulta`.
 
-(3) Muestra solamente los elementos con el id indicado, dentro del GeoJSON.
+*(3)* Muestra solamente los elementos con el *ID* indicado, dentro del GeoJSON.
 
 <br />
 
