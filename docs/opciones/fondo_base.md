@@ -5,10 +5,12 @@ La opción `fondo_base` especifica el fondo cartográfico que se utilizará en e
 
 |Nombre|fondo_base|Valor|Tipo|url
 :---|:---|:---:|:---:|:---
-IDErioja - Mapa base|`"iderioja-base"`|`0`|TS|https://ts0.larioja.org/mb.php?z={z}&x={x}&y={y}
-IDErioja - Mapa base|`"iderioja-base"`|`1`|TS|https://ts0.larioja.org/mb.php?z={z}&x={x}&y={y}
-IDErioja - Ortofografía aérea|`"iderioja-ortofoto"`|`2`||TS|https://ts0.larioja.org/mb_raster.php?z={z}&x={x}&y={y}
-IDErioja - Relieve|`"iderioja-relieve"`|`4`|TS|https://ts0.larioja.org/mb_relieve.php?z={z}&x={x}&y={y}
+IDErioja - Mapa base|`"iderioja-base"`|`0`|TS|https://rts.larioja.org/mapa-base/rioja/{z}/{x}/{y}.png
+IDErioja - Mapa base|`"iderioja-base"`|`1`|TS|https://rts.larioja.org/mapa-base/rioja/{z}/{x}/{y}.png
+IDErioja - Ortofografía aérea|`"iderioja-ortofoto"`|`2`|TS|https://rts.larioja.org/ortofoto-2017/{z}/{x}/{y}.jpg
+IDErioja - Relieve|`"iderioja-relieve"`|`4`|TS|https://rts.larioja.org/relieve-2016/{z}/{x}/{y}.jpg
+IDErioja - Claro|`"iderioja-claro"`|`5`|TS|https://rts.larioja.org/mapa-base/claro/{z}/{x}/{y}.png
+IDErioja - Oscuro|`"iderioja-oscuro"`|`6`|TS|https://rts.larioja.org/mapa-base/oscuro/{z}/{x}/{y}.png
 [IGN Mapa Base](http://www.ign.es/wmts/ign-base?request=GetCapabilities&service=WMTS)|`"ign-base"`|`100`|WMTS|http://www.ign.es/wmts/ign-base (Layer=IGNBaseTodo)
 [PNOA (SCNE) - Ortofotografía aérea](http://www.ign.es/wmts/pnoa-ma?request=GetCapabilities&service=WMTS)|`"pnoa-ortofoto"`|`101`|WMTS|http://www.ign.es/wmts/pnoa-ma (layer=OI.Orthoimage)
 [OpenStreetMap Standard](http://wiki.openstreetmap.org/wiki/Standard_tile_layer)|`"osm-standard"`|`700`|TS|https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
